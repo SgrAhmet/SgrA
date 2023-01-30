@@ -6,11 +6,12 @@
 
 body {
   font-family: "Itim", cursive;
-  /* background-image: url(galaxy-stars-space-digital-art-2k-wallpaper-uhdpaper.com-101@0@i.jpg); */
+  background-image: url(galaxy-stars-space-digital-art-2k-wallpaper-uhdpaper.com-101@0@i.jpg);
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
+  color: antiquewhite;
 }
 
 h1 {
@@ -20,8 +21,8 @@ h1 {
 
 form {
   text-align: center;
-  background-color: #85ffbd;
-  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  /* background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%); */
   width: 35%;
   padding-bottom: 1rem;
   border-radius: 2rem;
@@ -71,3 +72,17 @@ input,textarea,select{
 .gender-div label:first-child{
             width: 30%;
 }
+.dil-div input{
+  margin-left:.8rem ;
+  width: 5%;
+  margin-right: .8rem;
+
+}
+.dil-div label{
+  width: 8%;
+}
+.dil-div label:first-child{
+  width: 30%;
+  margin-right: 2.1rem;
+}
+
