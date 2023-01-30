@@ -53,12 +53,59 @@
           required
         />
       </div>
+
       <div>
-          
-          <input type="reset" value="clear" />
-          <input type="submit" value="save" />
+        <label for="date">Doğum Tarihi</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          required
+          min="2022-12-01"
+          value="2023-01-01"
+        />
       </div>
-      
+
+      <div>
+        <label for="tel">Telefon Numarası</label>
+        <input type="tel" id="tel" name="tel" />
+      </div>
+
+      <div>
+        <label for="addres">Adres</label>
+        <textarea name="addres" id="addres" cols="20" rows="5"></textarea>
+      </div>
+      <div>
+        <label for="Country">Parti</label>
+        <select name="Country" id="Country">
+          <option value="0">Parti Seçin</option>
+          <optgroup label="İktidar">
+            <option value="1">AKP</option>
+            <option value="2">MHP</option>
+          </optgroup>
+          <optgroup label="Mualif">
+            <option value="3">CHP</option>
+            <option value="4">İYİ</option>
+            <option value="5">DP</option>
+            <option value="5">DEVA</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Cinsiyet</label>
+        <input type="radio" id="male" name="Cinsiyet">
+        <label for="male">Erkek</label>
+        
+        <input type="radio" id="female" name="Cinsiyet">
+        <label for="female">Kadın</label>
+
+      </div>
+
+      <div>
+        <input type="reset" value="clear" />
+        <input type="submit" value="save" />
+      </div>
     </form>
   </body>
 </html>
