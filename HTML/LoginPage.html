@@ -76,11 +76,11 @@
 
       <div>
         <label for="addres">Adres</label>
-        <textarea name="addres" id="addres" cols="20" rows="5"></textarea>
+        <textarea name="addres" id="addres" cols="20" rows="4"></textarea>
       </div>
       <div>
-        <label for="Country">Parti</label>
-        <select name="Country" id="Country">
+        <label for="Parti">Parti</label>
+        <select name="Parti" id="Parti">
           <option value="0">Parti Seçin</option>
           <optgroup label="İktidar">
             <option value="1">AKP</option>
@@ -90,21 +90,22 @@
             <option value="3">CHP</option>
             <option value="4">İYİ</option>
             <option value="5">DP</option>
+            
             <option value="5">DEVA</option>
           </optgroup>
         </select>
       </div>
 
-      <div>
+      <div class="gender-div">
         <label for="">Cinsiyet</label>
-        <input type="radio" id="male" name="Cinsiyet" />
-        <label for="male">Erkek</label>
 
+        <input type="radio" id="male" name="Cinsiyet" />
+        <label for="male" class="male">Erkek</label>
         <input type="radio" id="female" name="Cinsiyet" />
-        <label for="female">Kadın</label>
+        <label for="female" class="female">Kadın</label>
       </div>
 
-        <div>
+        <div class="dil-div">
             <label for="">Dil</label>
             <input type="checkbox" id="TR"checked>
             <label for="TR">Türkçe</label>
@@ -119,5 +120,6 @@
         <input type="submit" value="save" />
       </div>
     </form>
+    
   </body>
 </html>
