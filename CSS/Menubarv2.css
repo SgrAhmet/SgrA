@@ -24,3 +24,23 @@ h2{
 
 }
 
+li{
+    display: inline-block;
+    margin:.5rem 7% ;
+   
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+}
+
+nav{
+
+    background-color:rgb(224, 222, 222);
+    
+
+}
