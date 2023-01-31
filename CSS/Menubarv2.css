@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+
+    height: 5000px;
+    position: relative;
+    background-color: aqua;
+}
 header{
     background-color: red;
     padding: 1rem;
@@ -27,6 +33,7 @@ h2{
 li{
     display: inline-block;
     margin:.5rem 7% ;
+    font-size: 15px;
    
 }
 
@@ -41,6 +48,11 @@ ul{
 nav{
 
     background-color:rgb(224, 222, 222);
+    padding: 1rem ;
+    position: sticky;
+    top: .3rem ;
     
 
+
 }
+
