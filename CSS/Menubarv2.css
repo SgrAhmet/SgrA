@@ -78,7 +78,7 @@ figure img{
 
 }
 
-section.form{
+section.bottom{
     background-color: red;
     padding: 5rem 3rem;
     text-align: center;
@@ -88,19 +88,19 @@ section.form{
 
 }
 
-section.form input.text{
+section.bottom input.text{
     outline: none;
     padding: 1rem;
     border-radius: 3rem;
     border: none;
     margin-right: .3rem;
-    margin-top: .3rem;
+    margin-top: 3rem;
     margin-bottom: .3rem;
     background-color:#eceaea ;
 
 }
 
-section.form input.text:focus{
+section.bottom input.text:focus{
     
     /* border: 2px dashed black; */
     /* outline: 5px solid #c3bbbb; */
@@ -108,7 +108,7 @@ section.form input.text:focus{
 
 }
 
-section.form input.submit{
+section.bottom input.submit{
     
     padding: 1rem;
     border-radius: 3rem;
@@ -118,11 +118,12 @@ section.form input.submit{
     
 }
 
-section.form input.submit:active{
+section.bottom input.submit:active{
 
     color: red;
 }
 
+section
 
 footer p {
     background-color: black;
@@ -135,4 +136,17 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
+section.bottom a i{
+    color: black;
+    margin: .5rem 1rem;
+    padding: .5rem;
+    font-size: 30px;
+}
+
+section.bottom a i:hover{
+    color: white;
+
 }
