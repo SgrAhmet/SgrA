@@ -9,6 +9,7 @@ body{
     height: 5000px;
     position: relative;
     /* background-color: aqua; */
+    font-family: 'Itim', cursive;
 }
 header{
     background-color: #d51a1a;
@@ -39,6 +40,9 @@ li{
 
 ul li a{
     text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #eceaea;
 }
 
 ul{
@@ -56,16 +60,20 @@ nav{
 
 }
 
-a{
-    
-    padding: 1rem;
-    border-radius: 2rem;
-    color: #eceaea;
-}
 
-a:hover{
+ul li a:hover{
     background-color: #eceaea;
     color: #c3bbbb;
+    /* text-decoration: underline; */
 }
 
+figure{
+    text-align: center;
+}
+figure img{
+    margin:2rem 0;
+    /* border-radius: 5rem; */
+    border:10px solid #d51a1a;
 
+
+}
