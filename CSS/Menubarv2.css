@@ -8,10 +8,10 @@ body{
 
     height: 5000px;
     position: relative;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 header{
-    background-color: red;
+    background-color: #d51a1a;
     padding: 1rem;
     text-align: center;
 
@@ -47,12 +47,25 @@ ul{
 
 nav{
 
-    background-color:rgb(224, 222, 222);
-    padding: 1rem ;
+    background-color:#c3bbbb;
+    padding: 1.5rem ;
     position: sticky;
     top: .3rem ;
     
 
 
 }
+
+a{
+    
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #eceaea;
+}
+
+a:hover{
+    background-color: #eceaea;
+    color: #c3bbbb;
+}
+
 
