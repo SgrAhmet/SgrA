@@ -6,7 +6,7 @@
 
 body{
 
-    height: 5000px;
+    height: 2000px;
     position: relative;
     /* background-color: aqua; */
     font-family: 'Itim', cursive;
@@ -82,7 +82,32 @@ section.form{
     background-color: red;
     padding: 5rem 3rem;
     text-align: center;
+    position: absolute;
+    bottom: 51.2px;
+    width: 100%;
 
+}
+
+section.form input.text{
+    outline: none;
+    padding: 1rem;
+    border-radius: 3rem;
+
+}
+
+section.form input.text:focus{
+    
+    border: 2px dashed #c3bbbb;
+    /* outline: 5px solid #c3bbbb; */
+
+}
+
+section.form input.submit{
+    
+    padding: 1rem;
+    border-radius: 3rem;
+    outline: none;
+    
 }
 
 
