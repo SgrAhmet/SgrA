@@ -72,7 +72,7 @@ figure{
 }
 figure img{
     margin:2rem 0;
-    /* border-radius: 5rem; */
+    border-radius: 5rem;
     border:10px solid #d51a1a;
 
 
@@ -92,13 +92,19 @@ section.form input.text{
     outline: none;
     padding: 1rem;
     border-radius: 3rem;
+    border: none;
+    margin-right: .3rem;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    background-color:#eceaea ;
 
 }
 
 section.form input.text:focus{
     
-    border: 2px dashed #c3bbbb;
+    /* border: 2px dashed black; */
     /* outline: 5px solid #c3bbbb; */
+    background-color: white ;
 
 }
 
@@ -107,7 +113,14 @@ section.form input.submit{
     padding: 1rem;
     border-radius: 3rem;
     outline: none;
+    border: none;
+    background-color:#eceaea ;
     
+}
+
+section.form input.submit:active{
+
+    color: red;
 }
 
 
