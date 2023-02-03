@@ -13,7 +13,35 @@
 
     <script>
 
+        // const sayi = Number(prompt("Üç Haneli Bir Sayı Girin"))
+        // console.log(sayi)
+        
+        const sayi = Number("123")
+        console.log(sayi)
+        
 
+        
+        // 100+20+3
+
+        let ones = sayi % 10
+        console.log(ones)
+
+        let ftens = sayi % 100
+        // console.log(ftens)
+        let tens = ftens - ones
+        console.log(tens)
+
+        let hund = sayi - ftens
+        console.log(hund)
+
+        
+
+
+
+        console.log(`${hund}+${tens}+${ones}=${sayi}`)
+
+
+        
 
 
 
