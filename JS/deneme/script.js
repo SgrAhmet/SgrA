@@ -8,6 +8,7 @@ console.log(yıl)
 
 let yas = yıl - dop
 console.log(yas)
+console.log({yas})
 
 // console.log(name + " " + yas + " yaşında")
 
@@ -32,8 +33,19 @@ console.log(`${name} ${dop} yılında doğdu`)
 
 
     let pi = 3.14
-    let r = prompt("yarıçap girin")
-    console.log(r)
+    // let r = prompt("yarıçap girin")
+    // console.log(r)
 
     let R = Number(prompt("yarıçap girin"))
     console.log(R)
+
+    let alan = pi * R * R
+    console.log(alan)
+
+    console.log(`Dairenin Alanı ${alan} dır`)
+
+
+    console.log(`Dairenin Alanı ${Math.floor(alan)} dır`)
+    console.log(`Dairenin Alanı ${Math.ceil(alan)} dır`)
+    console.log(`Dairenin Alanı ${Math.trunc(alan)} dır`)
+    console.log(`Dairenin Alanı ${Math.round(alan)} dır`)
