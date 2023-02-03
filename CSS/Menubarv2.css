@@ -79,7 +79,7 @@ figure img{
 }
 
 section.bottom{
-    background-color: red;
+    background-color: #d51a1a;
     padding: 5rem 3rem;
     text-align: center;
     position: absolute;
@@ -98,14 +98,32 @@ section.bottom p{
 
 
 section.bottom input.text{
-    outline: none;
+    /* outline: none;
     padding: 1rem;
     border-radius: 3rem;
     border: none;
     margin-right: .3rem;
     margin-top: 3rem;
     margin-bottom: .3rem;
-    background-color:#eceaea ;
+    background-color:#eceaea ; */
+
+    outline: none;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: 2px solid white;
+    margin-right: .3rem;
+    margin-top: 3rem;
+    margin-bottom: .3rem;
+    background-color:#d51a1a ;
+    
+
+
+}
+
+section.bottom input.text:hover{
+
+    background-color: white;
+    
 
 }
 
@@ -129,14 +147,14 @@ section.bottom input.submit{
 
 section.bottom input.submit:active{
 
-    color: red;
+    color: #d51a1a;
 }
 
 
 
 section.bottom a i{
     color: black;
-    margin: .5rem 1rem;
+    margin: 1rem 1rem;
     padding: .5rem;
     font-size: 30px;
 }
@@ -158,3 +176,17 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+
+
+
+
+
+section.bottom input.text::placeholder{
+    
+    color:white;
+
+}
+
+
+
