@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     /* margin-top: 2rem; */
     width: 400px;
@@ -18,7 +18,7 @@ body{
 
 }
 .margin{
-    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 h1{
     font-size: 24px;
@@ -32,6 +32,7 @@ h1{
 .logo img{
     width: 48px;
     border-radius: 8px;
+    margin: 7px;
 }
 
 .logo img:first-child{
@@ -60,5 +61,30 @@ h1{
 }
 
 .cizgi div:first-child, .cizgi div:last-child{
+    width: 175px;
+    height: 5px;
+    border-top: 2px solid lightgray ;
 
+}
+
+p{
+    color: lightgray;
+    margin: .5rem;
+
+}
+
+input{
+    width: 380px;
+}
+
+#check{
+    width: fit-content;
+}
+
+.phone , .password {
+    text-align: left;
+}
+
+form{
+    padding: .6rem;
 }
