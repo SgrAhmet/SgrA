@@ -5,16 +5,16 @@
 }
 
 body{
-    /* background-image: url(Netflix-4.jpg); */
+    background-image: url(Netflix-4.jpg);
     color: white;
 }
 
 div.container{
     width: 80%;
-    height: fit-content;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
     margin: auto;
-    margin-top: 30px;
+    margin-top: 25px;
     /* max-width: 1240px;
     height: 1036px;
     margin: auto;
@@ -36,6 +36,7 @@ span{
 }
 h3{
     font-family: 'Source Code Pro', monospace;
+    margin-bottom: .5rem;
 
 }
 textarea{
@@ -45,8 +46,33 @@ textarea{
 .full-form{
     /* border: 2px solid red; */
     background-color: rgba(0, 0, 0, 0.8);
-    width: 50%;
+    height: 600px;
+    width: 35%;
     margin: auto;
-    padding: 30px 40px;
+    padding: 10px 40px;
 }
 
+#name,#age,#email,#feed,select{
+    width: 100%;
+
+}
+
+form div{
+    margin-top: 1rem;
+}
+
+form input,form textarea,select{
+
+    margin-top: .5rem;
+}
+
+div.submit{
+    text-align: center;
+}
+
+div.submit input{
+    padding: .3rem 1rem;
+    border-radius: 2rem;
+    background-color: red;
+    color: white;
+}
