@@ -8,3 +8,57 @@ body{
     background-color: #1D2033;
     color: white;
 }
+
+.container{
+    border: 2px solid red;
+    text-align: center;
+    /* margin-top: 2rem; */
+    width: 400px;
+    margin: 2rem auto;
+
+}
+.margin{
+    margin-top: 1.5rem;
+}
+h1{
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.image img{
+    width: 64px;
+    
+}
+.logo img{
+    width: 48px;
+    border-radius: 8px;
+}
+
+.logo img:first-child{
+    background-color: white;
+}
+.logo img:nth-child(3){
+    background-color: white;
+}
+.logo img:nth-child(2){
+    background-color: #1877F2;
+}
+.logo img:nth-child(5){
+    background-color: #107C10;
+}
+.logo img:nth-child(6){
+    background-color: #0049A0;
+}
+.logo img:nth-child(4){
+    background-color: black;
+}
+
+.cizgi div{
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.cizgi div:first-child, .cizgi div:last-child{
+
+}
