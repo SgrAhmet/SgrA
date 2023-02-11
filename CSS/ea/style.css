@@ -81,10 +81,18 @@ input{
     width: fit-content;
 }
 
-.phone , .password {
+.phone , .password,.check {
     text-align: left;
 }
 
 form{
-    padding: .6rem;
+    padding: 0 .6rem;
+}
+
+form div{
+    margin-top: 1rem;
+}
+
+form input{
+    margin-top: .5rem;
 }
