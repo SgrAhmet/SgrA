@@ -4,30 +4,3 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(Netflix-4.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-h1{
-    display: inline-block;
-    font-size: 35px;
-    font-family: 'Anton', sans-serif;
-    
-}
-
-div{
-
-text-align: center;
-background-color: rgb(0, 0, 0, .50) ;
-margin: 4rem 6rem;
-padding-bottom: 33.5rem;
-}
-
-
-h1.red{
-
-    color: red;
-}
