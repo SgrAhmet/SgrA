@@ -102,12 +102,15 @@ label{
 }
 
 #password:hover , #phone:hover{
-    border: 2px solid white;
+    border: 2px solid rgb(185, 185, 185);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px 5px
 }
 
-#password:focus{
-    border: none
+#password:focus , #phone:focus{
+    outline: none;
+    border: 2px solid white;
+    box-shadow: rgba(255, 255, 255, .2) 0px 0px 5px 5px;
+    
 }
 
 #password::placeholder , #phone::placeholder{
