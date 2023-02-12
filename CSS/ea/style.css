@@ -94,6 +94,20 @@ label{
     border: 2px solid #62626F;
     padding: 0 10px 0 12px;
     border-radius: 8px;
+
+
+    margin-top: .5rem;
+    color: white;
+    font-size: 15px;
+}
+
+#password:hover , #phone:hover{
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px 5px
+}
+
+#password:focus{
+    border: none
 }
 
 #password::placeholder , #phone::placeholder{
@@ -102,11 +116,11 @@ label{
     color: #62626F ;
 }
 
-form input{
+/* form input{
     margin-top: .5rem;
     color: white;
     font-size: 15px;
-}
+} */
 
 input{
     /* width: 380px;
