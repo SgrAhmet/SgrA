@@ -184,7 +184,9 @@ input[type=checkbox]{
 }
 
 .stylecheck:hover{
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 15px 3px
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 15px 3px;
+    
+    
     
 }
 
@@ -201,8 +203,49 @@ input[type=checkbox]{
 
 
 .submit input{
-    color: red;
+    color: white;
+    background-color: #1F55CA;
+    height: 48px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
 }
+
+.submit input:hover{
+    transition: transform 0.15s;
+    transform: scale(0.95);
+    box-shadow: #1f55ca30 0px 0px 20px 6px;
+}
+
+.submit input:active{
+    background-color: #355fbb;
+}
+
+
+.forgot a{
+    font-size:medium;
+    color: #3b68c9;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.forgot a:visited{
+    text-decoration: none;
+    
+}
+
 .check{
     display: flex;
 }
