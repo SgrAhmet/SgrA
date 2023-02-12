@@ -63,22 +63,34 @@ h1{
 .cizgi div:first-child, .cizgi div:last-child{
     width: 175px;
     height: 5px;
-    border-top: 2px solid lightgray ;
+    border-top: 2px solid #3A3C4C ;
 
 }
 
 p{
-    color: lightgray;
+    color: #908D8A;
     margin: .5rem;
 
 }
 
+#password , #phone{
+    width: 400px;
+    height: 48px;
+    background-color: #141724;
+    border: 2px solid #62626F;
+    padding: 0 10px 0 12px;
+    border-radius: 8px;
+}
+
 input{
-    width: 380px;
+    /* width: 380px;
+    height: 48px;
+    background-color: #141724; */
 }
 
 #check{
     width: fit-content;
+    height: fit-content;
 }
 
 .phone , .password,.check {
@@ -86,7 +98,7 @@ input{
 }
 
 form{
-    padding: 0 .6rem;
+    /* padding: 0 .6rem; */
 }
 
 form div{
