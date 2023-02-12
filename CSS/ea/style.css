@@ -214,12 +214,12 @@ input[type=checkbox]{
     letter-spacing: 2.4px;
     font-weight: 700;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 
 }
 
 .submit input:hover{
-    transition: transform 0.15s;
+    transition: all 0.15s;
     transform: scale(0.95);
     box-shadow: #1f55ca30 0px 0px 20px 6px;
 }
@@ -227,6 +227,7 @@ input[type=checkbox]{
 .submit input:active{
     background-color: #355fbb;
 }
+
 
 
 .forgot a{
@@ -266,7 +267,11 @@ input[type=checkbox]{
 }
 
 .create button:hover{
-    transition: transform 0.15s;
+    transition: all 0.15s;
     transform: scale(0.95);
     box-shadow: #1f55ca30 0px 0px 20px 6px;
+}
+
+.forgot{
+    margin-bottom: 1.5rem;
 }
