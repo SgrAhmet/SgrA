@@ -49,3 +49,5 @@ console.log(`${name} ${dop} yılında doğdu`)
     console.log(`Dairenin Alanı ${Math.ceil(alan)} dır`)
     console.log(`Dairenin Alanı ${Math.trunc(alan)} dır`)
     console.log(`Dairenin Alanı ${Math.round(alan)} dır`)
+
+   
