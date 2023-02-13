@@ -190,3 +190,14 @@ section.bottom input.text::placeholder{
 
 
 
+p.lorem{
+    text-indent: 215px;
+    line-height: 0.5px;
+    word-spacing: 20px;
+    letter-spacing: 55px;
+}
+
+h1.shadow{
+    text-shadow: 5px 5px 3px #000;
+    color: red;
+}
