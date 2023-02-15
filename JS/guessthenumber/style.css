@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: aquamarine;
+    text-align: center;
+    margin: 10rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+}
+.buttondiv{
+    text-align: center;
+}
+
+.buttondiv button{
+    padding: 3rem  10rem;
+    border: none;
+    border-radius: 10rem;
+    font-size:x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: azure;
+    
+   
+}
+
+.buttondiv button:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 25px 5px;
+}
+
+ .buttondiv button:active{
+    box-shadow: rgb(255, 255, 255) 0px 0px 50px 5px;
+    color: aquamarine;
+ }
+
+
+ .soru{
+    text-align: right;
+    margin-top: 3rem;
+ }
+
+ #hint{
+    font-size: xx-large;
+    margin-right: 1.5rem;
+    
+ }
+
+ #hint:hover{
+    color: aquamarine;
+    cursor: pointer;
+ }
+
+ .cevap{
+    text-align: right;
+ }
+
+ h1{
+    text-shadow: black 10px 10px 20px ;
+ }
+ h1:hover{
+    cursor: pointer;
+    text-shadow: black 10px 10px 2px ;
+    
+ }

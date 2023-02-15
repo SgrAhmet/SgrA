@@ -4,58 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body{
-            background-color: antiquewhite;
-        }
-
-        h1{
-            color: aquamarine;
-            text-align: center;
-            margin: 10rem;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 5rem;
-        }
-        .buttondiv{
-            text-align: center;
-        }
-
-        .buttondiv button{
-            padding: 3rem  10rem;
-            border: none;
-            border-radius: 10rem;
-            font-size:x-large;
-            font-family:Verdana, Geneva, Tahoma, sans-serif ;
-            background-color: azure;
-           
-        }
-
-        .buttondiv button:hover{
-            box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 25px 5px;
-        }
-
-         .buttondiv button:active{
-            box-shadow: rgb(255, 255, 255) 0px 0px 50px 5px;
-            color: aquamarine;
-         }
-    </style>
+    
 </head>
 <body>
     <h1>Guess number between 1 and 100</h1>
     <div class="buttondiv"> 
         
         
-        <button onclick="document.location.reload()"> Try Again </button>
+        <!-- <button onclick="document.location.reload()"> Try Again </button> -->
+        <button onclick="Function()"> Start </button>
 
     </div>
-  
+
+        <div class="cevap">
+            <p id="number"></p>
+
+        </div>
+
+        <div class="soru">
+
+            <i class="fa-solid fa-question" id="hint" onclick="Function2()"></i>
+        </div>
+
+
+
+
     <script src="script2.js"></script>
 </body>
 </html>
