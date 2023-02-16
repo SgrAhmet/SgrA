@@ -10,16 +10,21 @@ body{
 
 .divheader{
     text-align: right;
+    padding-bottom: 1rem;
 }
 
 .divheaderlinks{
     display: inline-block;
+    
+    
 }
 
 .divheaderbar{
     display: inline-block;
 
 }
+
+
 
 .divheaderimg{
     display: inline-block;
@@ -42,7 +47,56 @@ body{
 .headerbar{
     color: white;
 }
+.headerbar:hover{
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 10px 5px;
+    cursor: pointer;
+}
 
 .headerimg{
     height: 32px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+/* !----------Google-------- */
+
+.google{
+    text-align: center;
+    margin-top: 4.5rem;
+    
+}
+
+
+
+
+
+
+
+
+/*!-------------section----------- */
+.section{
+    text-align: center;
+}
+
+
+.search{
+    margin-top: 1.5rem;
+}
+.search input{
+    height: 45px;
+    width: 585px;
+    background-color: #202124;
+    border: 1px solid gray;
+    border-radius: 7rem ;
+}
+.search input:hover{
+    background-color: #303134;
+    border: 1px solid #303134;
+    box-shadow: rgba(0,0,0,0.5) 1.25px 1.25px 5px 1px;
+
+}
+
+.search input:focus{
+    outline: none;
 }
