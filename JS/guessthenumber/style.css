@@ -63,8 +63,4 @@ h1{
  h1{
     text-shadow: black 10px 10px 20px ;
  }
- h1:hover{
-    cursor: pointer;
-    text-shadow: black 10px 10px 2px ;
-    
- }
+ 

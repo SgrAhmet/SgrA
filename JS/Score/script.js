@@ -7,4 +7,7 @@ while(score > 100 || score < 0 ){
 
 }
 
-console.log(score)
+console.log(`Your Score is ${score}`)
+
+ahmet = confirm("ahmet")
+console.log(ahmet)
