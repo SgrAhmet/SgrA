@@ -63,7 +63,7 @@ body{
 
 .google{
     text-align: center;
-    margin-top: 4.5rem;
+    margin-top: 5rem;
     
 }
 
@@ -75,7 +75,25 @@ body{
 
 
 /*!-------------section----------- */
+
+
+
 .section{
+    text-align: center;
+    border: 1px solid gray;
+    height: 39px;
+    width: 560.4px;
+}
+
+
+div.x{
+    display: inline-block;
+}
+
+
+
+
+/* .section{
     text-align: center;
 }
 
@@ -88,7 +106,9 @@ body{
     width: 585px;
     background-color: #202124;
     border: 1px solid gray;
-    border-radius: 7rem ;
+    border-radius: 7rem ; */
+
+    /* padding: 1rem;  
 }
 .search input:hover{
     background-color: #303134;
@@ -99,4 +119,30 @@ body{
 
 .search input:focus{
     outline: none;
-}
+} */
+
+          /* !-------------Icons-------- */
+
+          /* .searchicon{
+            color: gray;
+            font-size: medium;
+            position: relative;
+            bottom: 31.5px;
+            left: -270px;
+          }
+
+
+          .keyboard{
+            color: rgba(255, 255, 255, 0.833);
+            font-size: medium;
+            position: relative;
+            
+
+          }
+
+
+          .camera{
+            color: blue;
+            position: relative;
+            bottom: 85px;
+          } */
