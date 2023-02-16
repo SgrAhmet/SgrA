@@ -83,10 +83,9 @@ div.inline-block{
 .section{
     position: relative;
     text-align: center;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     border-radius: 10rem;
-    /* height: 39px;
-    width: 560.4px; */
+   
     height: 45px;
     width: 585px;
     margin: auto;
@@ -94,28 +93,63 @@ div.inline-block{
 }
 
 .section:hover{
-    background-color: #303134;
+    /* background-color: #303134;
     border: 1px solid #303134;
     box-shadow: rgba(0,0,0,0.5) 1.25px 1.25px 5px 1px;
-    cursor:text;
+    cursor:text; */
 }
 
 .section input{
-    height: 43px;
+    height: 45px;
+    width: 579px;
+    border-radius: 7rem;
     background-color: #202124;
-    background-color: red;
-    border: none;
+    /* background-color: red; */
+    border: 1px solid gray;
+    outline: none;
+}
+
+.section input:hover{
+    background-color: #303134;
+    border: 2px solid #303134;
+    box-shadow: rgba(0,0,0,0.5) 1.25px 1.25px 5px 1px;
+    
+    
 }
 
 .searchicon{
     color: rgb(163, 162, 162);
     font-size: small;
     position: absolute;
-    left: 16px;
+    left: 23px;
     top: 16px;
 }
 
+.keyboard{
+    color: rgb(163, 162, 162);
+    font-size: large;
+    position: absolute;
+    right: 100px;
+    top: 13.5px;
 
+}
+
+
+.microphone{
+    color: rgb(163, 162, 162);
+    font-size: large;
+    position: absolute;
+    right: 60px;
+    top: 13.5px;
+}
+
+.camera{
+    color: rgb(163, 162, 162);
+    font-size: large;
+    position: absolute;
+    right: 18px;
+    top: 13.5px;
+}
 
 
 
