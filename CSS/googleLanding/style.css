@@ -76,19 +76,50 @@ body{
 
 /*!-------------section----------- */
 
-
-
-.section{
-    text-align: center;
-    border: 1px solid gray;
-    height: 39px;
-    width: 560.4px;
-}
-
-
-div.x{
+div.inline-block{
     display: inline-block;
 }
+
+.section{
+    position: relative;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10rem;
+    /* height: 39px;
+    width: 560.4px; */
+    height: 45px;
+    width: 585px;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.section:hover{
+    background-color: #303134;
+    border: 1px solid #303134;
+    box-shadow: rgba(0,0,0,0.5) 1.25px 1.25px 5px 1px;
+    cursor:text;
+}
+
+.section input{
+    height: 43px;
+    background-color: #202124;
+    background-color: red;
+    border: none;
+}
+
+.searchicon{
+    color: rgb(163, 162, 162);
+    font-size: small;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+
+
+
+
+
 
 
 
