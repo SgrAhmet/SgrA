@@ -7,7 +7,7 @@
 body{
     background-color: #202124;
     position: relative;
-    height: 740px;
+    height: 745px;
 }
 
 .divheader{
@@ -222,8 +222,38 @@ div.buttons button:hover{
 .footer{
     position: absolute;
     bottom: 0px;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+
     
 }
 
+.upfooter{
+    background-color: #171717;
+    color: rgba(163, 162, 162, 0.722);
+    height: 49px;
+    font-size:medium;
+    
+}
 
-         
+.upfooter p{
+    padding-top: 15px;
+    padding-left: 35px;
+}
+     
+.downfooter{
+    background-color:#171717 ;
+    height: 49px;
+    border-top: 2px solid #303134;
+    
+}
+
+.downfooter a{
+    text-decoration: none;
+    color: rgba(163, 162, 162, 0.722);
+}
+
+.downfooter a:hover{
+    text-decoration: underline;
+}
+
