@@ -7,12 +7,13 @@
 body{
     background-color: #202124;
     position: relative;
-    height: 745px;
+    /* height: 745px; */
 }
 
 .divheader{
     text-align: right;
     padding-bottom: 1rem;
+    /* line-height: 36px; */
 }
 
 .divheaderlinks{
@@ -220,7 +221,7 @@ div.buttons button:hover{
 }
 
 .footer{
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     font-family:Arial, Helvetica, sans-serif;
@@ -230,7 +231,6 @@ div.buttons button:hover{
 
 .upfooter{
     background-color: #171717;
-    color: rgba(163, 162, 162, 0.722);
     height: 49px;
     font-size:medium;
     
@@ -239,21 +239,43 @@ div.buttons button:hover{
 .upfooter p{
     padding-top: 15px;
     padding-left: 35px;
+    color: rgba(213, 212, 212, 0.722);
+    
 }
      
 .downfooter{
     background-color:#171717 ;
     height: 49px;
     border-top: 2px solid #303134;
+    text-align: center;
+    padding-top: 15px;
     
 }
 
 .downfooter a{
     text-decoration: none;
-    color: rgba(163, 162, 162, 0.722);
+    color: rgba(213, 212, 212, 0.722);
 }
 
 .downfooter a:hover{
     text-decoration: underline;
 }
 
+.downfooter .left {
+    float: left;
+}
+.downfooter .left div{
+    /* padding-left: 2rem; */
+    margin-left: 2rem;
+}
+.downfooter .middle{
+    padding-right: 8rem;
+}
+
+.downfooter .right{
+    float: right;
+}
+
+.downfooter .right div a{
+    margin-right: 2rem;
+}
