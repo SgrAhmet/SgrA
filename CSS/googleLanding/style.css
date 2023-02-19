@@ -30,6 +30,12 @@ body{
         text-decoration: none;
         
            }
+
+
+    .header li a:hover{
+        text-decoration: underline;
+    }
+
     .header li img{
         width: 30px;
         color: white;
@@ -37,8 +43,12 @@ body{
         /* vertical-align: middle; */
         
     }
+    .header li img:hover{
+        cursor: pointer;
+        
+    }
     .header li img.icon{
-        filter:contrast(0%);
+        /* filter:contrast(0%); */
     }
     .header__img{
         height: 80%;
