@@ -12,13 +12,42 @@ body{
 
 /* !--------HEADER-------- */
 
-
-
+    .header{
+        text-align: right;
+    }
+    
+    .header ul{
+        /* vertical-align: middle; */
+        margin-top: 1rem;
+    }
+    .header li{
+        display: inline-block;
+        margin-right: 1rem;
+        vertical-align: middle;
+    }
+    .header li a{
+        color: white;
+        text-decoration: none;
+        
+           }
+    .header li img{
+        width: 30px;
+        color: white;
+        /* margin-top: 1rem; */
+        /* vertical-align: middle; */
+        
+    }
+    .header li img.icon{
+        filter:contrast(0%);
+    }
+    .header__img{
+        height: 80%;
+    }
 /* !----------Google-------- */
 
 .google{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 6.5rem;
     
 }
 
@@ -165,6 +194,7 @@ div.buttons button:hover{
 /* sapling */
 .footerimg img{
     height: 10px;
+    transform: rotate(90deg);
 }
 
 
