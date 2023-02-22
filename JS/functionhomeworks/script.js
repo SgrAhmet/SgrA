@@ -14,4 +14,3 @@
 
 // alert (`Karesi : ${kareAl(num)} Küpü : ${küpAl(num)} Üssü : ${üsAl(num)}`)
 
-

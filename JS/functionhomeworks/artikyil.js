@@ -8,18 +8,49 @@
 //? Örneğin 1600 ve 2000 yılları artık yıldır ancak 1800 ve 1900 artık yıl değildir.
 
 
+// const artikyil = function(year){
+
+//     if(year % 4 === 0){
+        
+       
+//         if(year % 100 === 0 && year % 400 !== 0){
+
+//             alert("Artık Yıl Değil")
+            
+
+//         }else{
+//             alert("Artık Yıl")
+//         }
+
+        
+
+
+//     }else{
+//         alert("Artık Yıl Değil")
+//     }
+
+
+// }
+
+// let year = Number(prompt("Yıl Giriniz"))
+// artikyil(year);
+
+
+
+
 const artikyil = function(year){
 
     if(year % 4 === 0){
         
-        // if(year % 100 === 0 && year % 400 === 0 ){
-        //     alert("Artık Yıl")
-        // }
-
+       
         if(year % 100 === 0 && year % 400 !== 0){
 
-            alert("Artık Yıl Değil bas")
+            alert("Artık Yıl Değil")
             
+
+        }else if(year % 400 == 0 && year % 4000 === 0){
+
+            alert("Artık Yıl Değil")
 
         }else{
             alert("Artık Yıl")
@@ -29,7 +60,7 @@ const artikyil = function(year){
 
 
     }else{
-        alert("Artık Yıl Değil son")
+        alert("Artık Yıl Değil")
     }
 
 
@@ -37,4 +68,5 @@ const artikyil = function(year){
 
 let year = Number(prompt("Yıl Giriniz"))
 artikyil(year);
+
 
