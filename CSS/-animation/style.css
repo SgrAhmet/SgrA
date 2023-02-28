@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.space img{
+    z-index: 0;
+    height: 100vh;
+}
+
+.meteor img{
+    z-index: 1;
+}
+
+.ship img{
+    z-index: 1;
+}
