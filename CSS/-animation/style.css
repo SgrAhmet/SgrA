@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.container{
+    background-image: url(./imgs/SPACE.png);
+    height: 100vh;
+    position: relative;
+    
+
+    
+}
+
+
+
+ .meteour{
+    background-image: url(./imgs/METEOUR.png);
+    height: 90vh;
+    width: 1000%;
+    /* animation: abc 20s linear infinite;  */
+ }
+    
+        
+
+.spaceship{
+    position: absolute;
+    bottom: 100px;
+}
+@keyframes abc {
+    100%{
+        transform: translate(-20000px);
+    }
+}
