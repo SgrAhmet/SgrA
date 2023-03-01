@@ -4,15 +4,8 @@
     box-sizing: border-box;
 }
 
-.space img{
-    z-index: 0;
+
+body{
+    background-image: url(./imgs/SPACE.png);
     height: 100vh;
-}
-
-.meteor img{
-    z-index: 1;
-}
-
-.ship img{
-    z-index: 1;
 }
