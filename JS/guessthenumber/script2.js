@@ -3,6 +3,17 @@ console.log(num)
 
 document.getElementById("number").innerHTML = num;
 
+document.querySelector("#edit")
+document.getElementsByClassName("edit")
+document.querySelectorAll(".edit")
+
+
+
+
+
+
+
+
 document.querySelector(".cevap").style.display = "none"
 function Function2() {
     document.querySelector(".cevap").style.display = "block"
