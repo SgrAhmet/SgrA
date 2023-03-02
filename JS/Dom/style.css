@@ -4,3 +4,38 @@
     box-sizing: border-box;
 }
 
+div{
+    text-align: center;
+    border: 1px solid red;
+    height: 100vh;
+    
+}
+
+div p{
+    display: inline-block;
+    margin-top: 18rem;   
+    font-size: 64px;
+    font-family: sans-serif; 
+}
+
+div button{
+    margin-top: 1rem;
+    width: 256px;
+    height: 64px;
+    border-radius: 64px;
+    outline: none;
+    border: none;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+div button:hover{
+
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+div button:active{
+    border: none;
+}
