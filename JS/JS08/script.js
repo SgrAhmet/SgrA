@@ -22,6 +22,8 @@ for(let a = (str.length-1); a >= 0 ; a--){
 }
 
 // console.log(str.slice(1,8))
+console.log(str.slice(str.length - 3))
+// ?son 3(n) harf alma
 // console.log(str.slice(4,7))
 // console.log(str.slice(3))
 // console.log(str.slice(-6,-2))
@@ -39,6 +41,11 @@ console.log(str.includes(`hello`))
 
 console.log(str.indexOf(`World`))
 // ? Kaçıncı Karakterse Onu Döndürür (0,1,2,3....)
+console.log(str.lastIndexOf(`World`))
+// ?indexof un tersi
 
 console.log(str.indexOf(`l`))
 // ? Denemkki İLk Karakteri ALıyo
+
+console.log(str.indexOf(`l`,4))
+// ?4. karakterden sonra ara demek
