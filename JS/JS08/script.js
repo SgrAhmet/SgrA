@@ -11,8 +11,12 @@ let str = `Hello World`
 
 // console.log(str[str.length-1])
 
-for(let i = 0 ; i < str.length ; i++ ){
+// for(let i = 0 ; i < str.length ; i++ ){
 
-    console.log(str[i])
+//     console.log(str[i])
 
+// }
+
+for(let a = (str.length-1); a >= 0 ; a--){
+    console.log(str[a])
 }
