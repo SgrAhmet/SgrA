@@ -12,7 +12,7 @@ body{
     background-image: url(./imgs/SPACE.png);
     height: 100vh;
     position: relative;
-    
+    padding-top: 2.5rem;
 
     
 }
@@ -20,20 +20,45 @@ body{
 
 
  .meteour{
+    /* border: 5px solid red; */
+    
     background-image: url(./imgs/METEOUR.png);
     height: 90vh;
     width: 1000%;
-    /* animation: abc 20s linear infinite;  */
+    animation: abc 30s linear infinite; 
  }
     
         
-
+ .spaceship img{
+    width: 150px;
+ }
 .spaceship{
+    
     position: absolute;
-    bottom: 100px;
+    bottom: 150px;
+    
 }
+
+.spaceship:active{
+    /* animation: up 10s linear infinite; */
+    animation: up 4s linear 1;
+
+}
+
 @keyframes abc {
     100%{
-        transform: translate(-20000px);
+        transform: translate(-8000px);
     }
 }
+
+@keyframes up {
+   
+   
+
+    50%{
+        transform: translateY(-400px);
+    }
+
+    
+}
+
