@@ -49,3 +49,26 @@ console.log(str.indexOf(`l`))
 
 console.log(str.indexOf(`l`,4))
 // ?4. karakterden sonra ara demek
+
+console.log(str.search("World"))
+console.log(str.search(/World/))
+console.log(str.search(/world/))
+console.log(str.search(/world/i))
+// i koyarsan küçkü harf büyük harf farketmez
+
+
+let str2 = "Mr Brown have a brown house and brown cat"
+
+console.log(str2)
+
+console.log(str2.replace("brown","black"))
+
+console.log(str2.replace(/brown/i,"black"))
+
+console.log(str2.replace(/brown/g,"black"))
+// ?hepsini seçer replaceAll ile aynı
+
+console.log(str2.replaceAll("brown","black"))
+
+
+console.log(str2.replace(/brown/ig,"black"))
