@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    border: 5px solid red;
+    text-align: center;   
+     
+}
+
+
+ .imgs{
+    display: inline-block;
+    /* margin-top: 10rem; */
+    border: 3px solid rgb(255, 0, 204);
+
+}
+ .imgs img{
+    width: 300px;
+    margin-right: 1rem;
+    border-radius: 1.7rem;
+    
+}
