@@ -1,46 +1,25 @@
-// let input = prompt(`Please Enter Sentence`).trim()
-
-let input = "ahmEt zOTtirri Başkan YUSuf reİs FurkAn".trim().toLocaleLowerCase()
-
-console.log(input)
-
-var words = input.split(" ")
-
-console.log(words)
-
-console.log(words.length)
+var input = prompt(`Please Enter Sentence`).trim().toLocaleLowerCase();
 
 
-for(let i = 1; i < words.length;i++){
+while(input.indexOf(` `,input.indexOf(` `)+1) > - 1){
 
-    // console.log(words[i])
-    
-    var x = words[i].split("")
-
-    // console.log(x)
-
-    x[0] = x[0].toLocaleUpperCase()
-
-    console.log(x)
-
-    // console.log(x.join(""))  
-
-    words[i] = x.join("")
-
-    console.log(words[i])
-    
-    
-
-    // console.log(x[0].toLocaleUpperCase())
-
-    // console.log(x[0].replace(`${x[0]}`,`${x[0].toUpperCase()}`))
-   
-
-   
-
-
-
+  var input = prompt(`Sentence Shouldn't have no more 2 spaces`).trim().toLocaleLowerCase();
 }
 
 
-console.log(words.join(""))
+
+
+
+
+var words = input.split(" ");
+
+
+for (let i = 1; i < words.length; i++) {
+  var x = words[i].split("");
+
+  x[0] = x[0].toLocaleUpperCase();
+
+  words[i] = x.join("");
+}
+
+console.log(words.join(""));
