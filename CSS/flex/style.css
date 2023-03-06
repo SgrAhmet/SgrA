@@ -67,6 +67,12 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
 }
 
+.container header .right img{
+    position: relative;
+    bottom: 9px;
+    right: 22px;
+}
+
 .container header .right i:hover{
     cursor: pointer;
 }
