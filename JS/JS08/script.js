@@ -34,7 +34,7 @@ for(let a = (str.length-1); a >= 0 ; a--){
 // console.log(str.substring(2,4))
 // console.log(str.substring(4,2))
 
-// console.log(str.includes(`World`))
+console.log(str.includes(`  `))
 // console.log(str.includes(`ahmet`))
 // console.log(str.includes(`Hello`))
 // console.log(str.includes(`hello`))
