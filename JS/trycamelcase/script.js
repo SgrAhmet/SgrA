@@ -1,11 +1,9 @@
 var input = prompt(`Please Enter Sentence`).trim().toLocaleLowerCase();
 
-// while (input.indexOf(` `, input.indexOf(` `) + 1) > -1) {
-//   var input = prompt(`Sentence Shouldn't have no more 2 spaces`)
-//     .trim()
-//     .toLocaleLowerCase();
-// }
-
+while (input.indexOf(` `, input.indexOf(` `) + 1) > -1) {
+  var input = prompt(`Sentence Shouldn't have no more 2 spaces`).trim().toLocaleLowerCase();
+}
+// console.log( input.indexOf(` `))
 var words = input.split(" ");
 
 for (let i = 1; i < words.length; i++) {

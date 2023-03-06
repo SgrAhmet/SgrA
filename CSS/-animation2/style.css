@@ -52,6 +52,15 @@ img:hover{
     animation: pack4 5s linear 1;
 
 }
+#c:hover{
+    animation: pack3 5s linear 1;
+
+}
+#b:hover{
+    animation: pack2 5s linear 1;
+
+}
+
 @keyframes scale {
 
     50%{
@@ -113,3 +122,26 @@ img:hover{
     }
 }
 
+
+@keyframes pack3 {
+    50%{
+     transform: translate(-200px);
+
+    }
+
+    100%{
+        transform: scale(30);
+        
+    }
+}
+@keyframes pack2 {
+    50%{
+     transform: translate(200px);
+
+    }
+
+    100%{
+        transform: scale(30);
+        
+    }
+}
