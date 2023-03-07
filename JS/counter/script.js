@@ -23,7 +23,9 @@ function countToWords(){
     let from = 0 ;
     let to = words.length;
     let step = to > from ? 1 : -1;
-    let interval = words.length;
+    let interval = 30;
+
+    console.log(interval)
 
     if(from == to){
         document.querySelector("#words").textContent = from;
@@ -44,7 +46,9 @@ function countToWords(){
     let from1 = 0 ;
     let to1 = letters.length;
     let step1 = to1 > from1 ? 1 : -1;
-    let interval1 = 3;
+    let interval1 = 100 / letters.length;
+
+    console.log(interval1)
 
     if(from1 == to1){
         document.querySelector("#letter").textContent = from1;
