@@ -42,11 +42,33 @@ body{
     justify-content: center;
 }
 .container .text{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+    padding: 1rem;
+    resize: none;
     margin-top: 2rem;
     width: 70%;
     height:500px;
 }
+.updown{
+    display: flex;
+    justify-content: center;
+}
+.down{
+    width: 70%;
+    align-items: center;
+    display: flex;
+}
 
+.down  .left-div{
+ flex: 1;
+}
+.down .button-div{
+ flex: 1;
+}
+.down .right-div{
+ flex: 1;
+}
 
 
 
