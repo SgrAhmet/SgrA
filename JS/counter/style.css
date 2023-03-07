@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    
+    font-family: 'Tilt Neon', cursive;
+}
 .header{
-    background-color: rgb(237, 236, 236);
+    background-color:#A9D9D0;
     padding: 1rem 1rem 1rem 2rem;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.629);
+    border-bottom: 2px solid #038C7F;
 }
 
 
@@ -32,3 +36,17 @@
     text-decoration: none;
     color: black ;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container .text{
+    margin-top: 2rem;
+    width: 70%;
+    height:500px;
+}
+
+
+
+
