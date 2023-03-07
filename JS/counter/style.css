@@ -1,3 +1,6 @@
+/* #348888 #22BABB #9EF8EE #FA7F08  #F24405*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,13 +10,14 @@
 body{
     
     font-family: 'Tilt Neon', cursive;
+    
 }
 .header{
-    background-color:#A9D9D0;
-    padding: 1rem 1rem 1rem 2rem;
+    background-color:#9EF8EE;
+    /* padding: 1rem 1rem 1rem 2rem; */
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 2px solid #038C7F;
+    border-bottom: 2px solid #348888;
 }
 
 
@@ -21,21 +25,28 @@ body{
 
 
 .header .left{
+    padding-left: 4rem;
     flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
 .header .right{
+    height: 100%;
     flex: 1;
     display: flex;
     justify-content: space-around;
 }
 
 .header .right a{
-    
+    padding: 1rem;
     text-decoration: none;
     color: black ;
 }
+
+
 
 .container{
     display: flex;
@@ -49,25 +60,82 @@ body{
     margin-top: 2rem;
     width: 70%;
     height:500px;
+    
+    border: 2px solid #348888;
 }
+
+.container .text:focus{
+    border: 3px solid #348888;
+    outline: none;
+}
+
 .updown{
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    /* height: 100px; */
+    /* border: 1px solid  blue; */
+    margin-top: 3rem;
+    
+
+
 }
 .down{
     width: 70%;
     align-items: center;
     display: flex;
+    
+    height: 100px;
+    border: 2px solid #348888;
+
+    font-size: 30px;
 }
 
 .down  .left-div{
+   
  flex: 1;
+}
+
+.down  .left-div p{
+    flex: 1;
+    text-align: center;
 }
 .down .button-div{
  flex: 1;
 }
+
+.down .button-div button{
+    width: 100%;
+    height:60px;
+    font-size: 20px;
+    font-family: 'Tilt Neon', cursive;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color:#FA7F08 ;
+    color: white;
+
+}
+.down .button-div button:hover{
+    background-color:#f79e44 ;
+    transform: scale(1.1);
+
+}
+.down .button-div button:active{
+
+    transform: scale(0.9);
+    
+
+}
+
 .down .right-div{
  flex: 1;
+}
+
+.down .right-div p{
+    flex: 1;
+    text-align: center;
 }
 
 
