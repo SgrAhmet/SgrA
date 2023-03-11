@@ -1,4 +1,4 @@
-let num = "49";
+let num = "45956567";
 console.log("sayınnı kendisi", num);
 
 if (+num == +num.split("").reverse().join("")) {
