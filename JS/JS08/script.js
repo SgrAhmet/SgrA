@@ -46,8 +46,8 @@ console.log(str.includes(`  `))
 
 // console.log(str.indexOf(`l`))
 //! ? Denemkki İLk Karakteri ALıyo
-
-// console.log(str.indexOf(`l`,4))
+console.log(str)
+console.log(str.indexOf(`l`,4))
 // !4. karakterden sonra ara demek
 
 // console.log(str.search("World"))
@@ -96,5 +96,6 @@ console.log(str3.trim())
 
 
 // ! Welcome ile mi başlıyo
+console.log(str3.trim())
 console.log(str3.trim().startsWith("Welcome"))
 console.log(str3.trim().startsWith("to",8))

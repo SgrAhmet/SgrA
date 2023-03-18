@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Lobster&family=Rubik+Iso&family=Sono:wght@800&display=swap');
+
+:root{
+    /* ?Colors */
+
+    --gray: rgb(77, 75, 75);
+    --gray-light: rgb(163, 161, 161);
+    --red: rgb(211, 50, 50);
+    --blue: rgb(98, 231, 246);
+
+
+    /* ?Fonts-families */
+
+    --ff-edu: 'Edu NSW ACT Foundation', cursive;
+    --ff-lobster: 'Lobster', cursive;
+    --ff-rubik: 'Rubik Iso', cursive;
+    --ff-sono: 'Sono', sans-serif;
+
+}
