@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12rem;
+}
+div i{
+    
+    font-size: 7rem;
+    z-index: 3;
+    
+}
+div{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    
+}
+div:hover{
+    color: rgb(255, 0, 0);
+    transition: all .5s;
+    cursor: pointer;
+}
+.page{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+}
+
+.page:hover{
+    transform: translateY(295px);
+    transition: all .5s;
+}
+
+
+/* -------------------- */
+
+.face i{
+    
+    font-size: 7rem;
+    z-index: 3;
+    
+}
+.face{
+    /* margin-top: 3rem; */
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    
+}
+.face:hover{
+    color: rgb(52, 73, 191);
+    transition: all .5s;
+    cursor: pointer;
+}
+.face-page{
+    position: absolute;
+    background-color: rgb(52, 73, 191);
+}
+
+.face-page:hover{
+    transform: translateY(295px);
+    transition: all .5s;
+}
+
+/*? -------------------------- */
+
+.ins i{
+    
+    font-size: 7rem;
+    z-index: 3;
+    
+}
+.ins{
+    /* margin-top: 3rem; */
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    
+}
+.ins:hover{
+    color: rgb(228, 79, 156);
+    transition: all .5s;
+    cursor: pointer;
+}
+.ins-page{
+    position: absolute;
+    background-color: rgb(228, 79, 156);
+}
+
+.ins-page:hover{
+    transform: translateY(295px);
+    transition: all .5s;
+}
