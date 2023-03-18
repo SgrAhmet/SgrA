@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 body{
+    
     display: flex;
     justify-content: space-evenly;
-    padding-top: 12rem;
+    padding-top: 14rem;
 }
 div i{
     
@@ -21,20 +22,33 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(219, 219, 219);
+    background-color: white;
+    
     position: relative;
     overflow: hidden;
     color: rgb(255, 255, 255);
+
+    transition: color .9s;
     
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    
+
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 div:hover{
     color: rgb(255, 0, 0);
-    transition: all .5s;
+    transition: all .9s;
     cursor: pointer;
 }
 .page{
     position: absolute;
     background-color: rgb(255, 0, 0);
+    transform: translateY(1px);
+    transition: all .5s;
+
+    
 }
 
 .page:hover{
@@ -59,7 +73,7 @@ div:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(219, 219, 219);
+    background-color: white;
     position: relative;
     overflow: hidden;
     color: rgb(255, 255, 255);
@@ -67,13 +81,17 @@ div:hover{
 }
 .face:hover{
     color: rgb(52, 73, 191);
-    transition: all .5s;
+    transition: all .9s;
+
     cursor: pointer;
 }
 .face-page{
     position: absolute;
     background-color: rgb(52, 73, 191);
+    transform: translateY(1px);
+    transition: all .5s;
 }
+
 
 .face-page:hover{
     transform: translateY(295px);
@@ -96,23 +114,72 @@ div:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(219, 219, 219);
+    background-color: white;
+
     position: relative;
     overflow: hidden;
     color: rgb(255, 255, 255);
     
 }
 .ins:hover{
-    color: rgb(228, 79, 156);
-    transition: all .5s;
+    color: rgb(240, 161, 202);
+    transition: all .9s;
+
     cursor: pointer;
 }
 .ins-page{
     position: absolute;
-    background-color: rgb(228, 79, 156);
+    background:linear-gradient(45deg,  #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);;
+    transform: translateY(1px);
+    transition: all .5s;
+
 }
 
 .ins-page:hover{
     transform: translateY(295px);
+    transition: all .5s ;
+}
+
+/* ----------------------------- */
+
+
+
+.wha i{
+    
+    font-size: 7rem;
+    z-index: 3;
+    
+}
+.wha{
+    /* margin-top: 3rem; */
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    
+}
+.wha:hover{
+    color: #25D366;
+    transition: all .9s;
+
+    cursor: pointer;
+}
+.wha-page{
+    position: absolute;
+    background-color: #25D366;
+    transform: translateY(1px);
     transition: all .5s;
+
+}
+
+.wha-page:hover{
+    transform: translateY(295px);
+    transition: all .5s ;
 }
