@@ -8,15 +8,17 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding-top: 14rem;
+    flex-wrap: wrap;
 }
 div i{
     
     font-size: 7rem;
     z-index: 3;
+    /* display: none; */
     
 }
 div{
-    border-radius: 20px;
+    border-radius: 10px;
     width: 300px;
     height: 300px;
     display: flex;
@@ -43,6 +45,7 @@ div:hover{
     cursor: pointer;
 }
 .page{
+    border-radius: 1px;
     position: absolute;
     background-color: rgb(255, 0, 0);
     transform: translateY(1px);
@@ -86,6 +89,8 @@ div:hover{
     cursor: pointer;
 }
 .face-page{
+    border-radius: 1px;
+
     position: absolute;
     background-color: rgb(52, 73, 191);
     transform: translateY(1px);
@@ -128,6 +133,8 @@ div:hover{
     cursor: pointer;
 }
 .ins-page{
+    border-radius: 1px;
+
     position: absolute;
     background:linear-gradient(45deg,  #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);;
     transform: translateY(1px);
@@ -172,6 +179,8 @@ div:hover{
     cursor: pointer;
 }
 .wha-page{
+    border-radius: 1px;
+
     position: absolute;
     background-color: #25D366;
     transform: translateY(1px);
@@ -183,3 +192,6 @@ div:hover{
     transform: translateY(295px);
     transition: all .5s ;
 }
+
+
+  
