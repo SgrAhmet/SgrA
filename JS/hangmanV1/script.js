@@ -8,6 +8,7 @@
 // console.log(theWord)
 
 let area = []
+let right = 0
 let theWord = "araba"
 
 
@@ -24,9 +25,15 @@ theWord.split("").map((item) => {
 
 
 
-let guess = prompt(`please enter guess`)
 
-console.log(guess)
+
+
+
+
+
+while(right < 6 && area.includes("_") ){
+
+let guess = prompt(`please enter guess`)
 
 if(theWord.includes(guess)){
 
@@ -35,19 +42,25 @@ if(theWord.includes(guess)){
 
         area[theWord.indexOf(guess,i)] = guess
 
+       
 
-
-}
-
+} 
+ right++
     
+} else {
+
+    right++
 }
 
 
+} 
+
+    console.log(`ahmet hıyardr`)
 
 
 
 
 
 
-
+console.log(right)
 console.log(area.join(" "),theWord)
