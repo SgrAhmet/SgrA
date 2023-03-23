@@ -29,6 +29,7 @@ theWord.split("").map((item) => {
 
 
 
+document.getElementById("dom").innerHTML = area;
 
 
 while(right < 6 && area.includes("_") ){
@@ -52,7 +53,7 @@ if(theWord.includes(guess)){
     right++
 }
 
-
+document.getElementById("dom").innerHTML = area;
 } 
 
     console.log(`ahmet hıyardr`)
