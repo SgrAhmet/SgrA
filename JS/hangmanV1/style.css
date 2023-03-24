@@ -5,6 +5,7 @@
   font-family: 'Delicious Handrawn', cursive;
 }
 body{
+    position: relative;
     background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 height: 96.5vh;
@@ -20,11 +21,103 @@ height: 96.5vh;
 .upperheader p{
     font-size: 2.5rem;
 }
+.lose{
+    border-radius: 1rem;
+    border: 1px solid rgb(1, 53, 83);
+    position: absolute;
+    top: 5px;
+    transform: translateY(-250px);
+    /* display:none; */
+    left: 560px;
+    height: 200px;
+    width: 400px;
+
+    /* background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+/* background-color: #0093E9;
+background-image: linear-gradient(370deg, #0093E9 0%, #80D0C7 100%); */
+
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 50%, #ffffff 100%);
+
+
+}
+
+.lose p{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    
+}
+
+.y{
+    margin-left: 8rem;
+}
+ .lose p.x{
+    display: inline-block;
+    
+ }
+.lose button{
+    margin-top: 1rem;
+    margin-left: 9.5rem;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 16px;
+}
+.lose button:hover{
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.win{
+    border-radius: 1rem;
+    border: 1px solid rgb(1, 53, 83);
+    position: absolute;
+    top: 5px;
+    transform: translateY(-250px);
+    /* display:none; */
+    left: 560px;
+    height: 200px;
+    width: 400px;
+
+    /* background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+/* background-color: #0093E9;
+background-image: linear-gradient(370deg, #0093E9 0%, #80D0C7 100%); */
+
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 50%, #ffffff 100%);
+
+
+}
+
+.win p{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.win button{
+    margin-top: 2rem;
+    margin-left: 9.5rem;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 16px;
+}
+.win button:hover{
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
 .header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 13rem;
+    margin-top: 10rem;
     margin-bottom: 5rem;
 }
 
@@ -53,7 +146,7 @@ button.letter{
 
 button.letter:hover{
     background-color: rgb(200, 200, 200);
-    cursor: pointer;
+    cursor:pointer;
 
 }
 
@@ -63,4 +156,17 @@ button.letter:hover{
     /* background-color: red; */
     outline: 5px solid red;
     
+    
+}
+
+.ahmet2{
+ display:block;
+ transition: all 1s;
+ transform: translateY(10px);
+ 
+}
+
+
+.ahmet3{
+    display: none;
 }
