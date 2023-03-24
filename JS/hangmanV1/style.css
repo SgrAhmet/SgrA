@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 16rem;
+  justify-content: center;
+}
+
+p {
+  font-size: 3rem;
+}
