@@ -45,4 +45,9 @@ if (theWord.includes(guess)) {
   }
   document.getElementById("dom").innerHTML = area.join(" ");
 
+  document.getElementById("2").classList.add("ahmet")
 }
+
+// document.getElementById("2").classList.add("ahmet")
+
+// document.querySelectorAll(".letter").addEventListener ( "click" ,document.querySelectorAll(".letter").classList.add("ahmet"))
