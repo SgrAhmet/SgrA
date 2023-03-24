@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
 
     <title>Hangman</title>
   </head>
   <body>
+
+    <div class="upperheader">
+     <p>Kalan Hak :</p> 
+       <p id="right"></p>
+    </div>
+
     <div class="header">
 
         <p id="dom">_ _ _ _ _</p>
@@ -18,8 +27,7 @@
     
     <div class="footer">
             <div class="first">
-                <a href=""><button id="1" class="letter letter1">a</button></a>
-                
+                <button id="1" class="letter letter1" onclick="deneme()">a</button>
                 <button id="2" class="letter letter2" onclick="deneme2()">b</button>
                 <button id="3" class="letter letter3" >c</button>
                 <button id="4" class="letter letter4">ç</button>

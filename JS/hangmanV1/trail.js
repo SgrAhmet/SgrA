@@ -7,6 +7,8 @@ theWord.split("").map((item) => {
 });
 
 document.getElementById("dom").innerHTML = area.join(" ");
+document.getElementById("right").innerHTML = 6 - right;
+
 console.log(area.join(" "))
 let guess = null
 
@@ -26,6 +28,9 @@ if (theWord.includes(guess)) {
     right++;
   }
 document.getElementById("dom").innerHTML = area.join(" ");
+document.getElementById("right").innerHTML = 6 - right;
+
+document.getElementById("1").classList.add("ahmet")
 
 
 }
@@ -44,6 +49,7 @@ if (theWord.includes(guess)) {
     right++;
   }
   document.getElementById("dom").innerHTML = area.join(" ");
+  document.getElementById("right").innerHTML = 6 - right;
 
   document.getElementById("2").classList.add("ahmet")
 }
