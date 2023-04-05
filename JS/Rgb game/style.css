@@ -4,7 +4,26 @@
     box-sizing: border-box;
 }
 
-
+.container{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-area{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+body{
+    background-color: #A5D7E8;
+}
+.text-area p{
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+}
 .colors{
     display: flex;
     align-items: center;
@@ -16,9 +35,21 @@
 }
 
 .colors div{
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     /* background-color: red; */
     height: 100px;
     width: 100px;
     border-radius: 10px;
+}
+
+.colors button{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+.colors button:hover{
+    cursor: pointer;
 }
