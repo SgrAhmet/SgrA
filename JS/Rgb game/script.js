@@ -20,7 +20,9 @@ let text = `${Math.ceil(Math.random() * 255)},${Math.ceil(
 var styles = `
 .colors div{ 
 background-color: rgb(${text});
+
 }
+
 
 `;
 var styleSheet = document.createElement("style");
