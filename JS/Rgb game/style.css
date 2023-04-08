@@ -18,6 +18,20 @@
 }
 body {
   background-color: #a5d7e8;
+  /* background-color: #3C28F0; */
+}
+
+
+.container .score{
+  position: relative;
+  bottom: 21vh;
+  left: 37vw;
+}
+.container .score p{
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+
 }
 .text-area p {
   margin-bottom: 10px;
