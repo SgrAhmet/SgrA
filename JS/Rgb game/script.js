@@ -1,30 +1,56 @@
 let counter = 0
 
 
+let d1 = null
+let d2 = null
+let d3 = null
+let d4 = null
+let d5 = null
+let d6 = null
+
+answer = null
+
+
 function game() {
-  let d1 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
+  d1 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
     Math.random() * 255
   )},${Math.ceil(Math.random() * 255)}`;
 
-  let d2 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
+   d2 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
     Math.random() * 255
   )},${Math.ceil(Math.random() * 255)}`;
 
-  let d3 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
+   d3 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
     Math.random() * 255
   )},${Math.ceil(Math.random() * 255)}`;
 
-  let d4 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
+  d4 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
     Math.random() * 255
   )},${Math.ceil(Math.random() * 255)}`;
 
-  let d5 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
+   d5 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
     Math.random() * 255
   )},${Math.ceil(Math.random() * 255)}`;
 
-  let d6 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
+   d6 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
     Math.random() * 255
   )},${Math.ceil(Math.random() * 255)}`;
+
+ 
+
+  // divarea.map((item) => {
+
+  //   console.log(item)
+  //   return (
+    
+  //  item = `${Math.ceil(Math.random() * 255)},${Math.ceil(
+  //       Math.random() * 255
+  //     )},${Math.ceil(Math.random() * 255)}`
+  //   )
+
+  // })
+
+
 
   document.querySelector(".div1").style.backgroundColor = `rgb(${d1})`;
   document.querySelector(".div2").style.backgroundColor = `rgb(${d2})`;
@@ -35,34 +61,102 @@ function game() {
 
   document.querySelector("#score").innerHTML = counter;
 
+ let divarea = [d1, d2, d3, d4, d5, d6];
 
-  let divarea = [d1, d2, d3, d4, d5, d6];
 
-  let answer = divarea[Math.ceil(Math.random() * 6) - 1];
+   answer = divarea[Math.ceil(Math.random() * 6) - 1];
 
   document.getElementById("text").innerHTML = `${answer}`;
 
   
 }
 
-console.log(d1)
 game();
 
 
 
-function Func1(){
+function Func1 (){
 
-  // console.log(d1)
-  // if(d1 == answer){
-  //     counter++
-  //     game();
+  if(d1 == answer){
+      counter++
+document.querySelector("#score").innerHTML = counter
+game();
+  }
+  else{
+    counter = 0
+document.querySelector("#score").innerHTML = counter
+game();
+  
+  }
+}
+function Func2 (){
 
-  // }
-  // else{
-  //   counter = 0
-  //   game();
+  if(d2 == answer){
+      counter++
+document.querySelector("#score").innerHTML = counter
+game();
+  }
+  else{
+    counter = 0
+document.querySelector("#score").innerHTML = counter
+game();
+  
+  }
+}
+function Func3 (){
 
-  // }
+  if(d3 == answer){
+      counter++
+document.querySelector("#score").innerHTML = counter
+game();
+  }
+  else{
+    counter = 0
+document.querySelector("#score").innerHTML = counter
+game();
+  
+  }
+}
+function Func4 (){
+
+  if(d4 == answer){
+      counter++
+document.querySelector("#score").innerHTML = counter
+game();
+  }
+  else{
+    counter = 0
+document.querySelector("#score").innerHTML = counter
+game();
+  
+  }
+}
+function Func5 (){
+
+  if(d5 == answer){
+      counter++
+document.querySelector("#score").innerHTML = counter
+game();
+  }
+  else{
+    counter = 0
+document.querySelector("#score").innerHTML = counter
+game();
+  
+  }
+}
+function Func6 (){
+
+  if(d6 == answer){
+      counter++
+document.querySelector("#score").innerHTML = counter
+game();
+  }
+  else{
+    counter = 0
+document.querySelector("#score").innerHTML = counter
+game();
+  
+  }
 }
 
-Func1();
