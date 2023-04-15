@@ -33,17 +33,25 @@ body {
   font-family: "Quicksand", sans-serif;
 
 }
+
+
 .text-area p {
   margin-bottom: 10px;
   font-family: "Quicksand", sans-serif;
   font-size: 32px;
+  letter-spacing: 2px;
+
+}
+
+.text-area #text{
+  letter-spacing: 3px;
 }
 .colors {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .colors div {
@@ -52,6 +60,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  
 }
 
@@ -72,3 +81,19 @@ body {
   transform: scale(.94);
   
 } 
+
+.wrong{
+  border: 1px solid red;
+  transform: scale(2);
+
+}
+
+.correct{
+  border: 1px solid green;
+  transform: scale(2);
+}
+
+.zero{
+  border: none;
+  transform: scale(1);
+}

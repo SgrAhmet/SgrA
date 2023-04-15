@@ -12,8 +12,6 @@ answer = null;
 var correct = new Audio(`correct.wav`);
 var wrong = new Audio(`wrong.wav`);
 
-
-
 function game() {
   d1 = `${Math.ceil(Math.random() * 255)},${Math.ceil(
     Math.random() * 255
@@ -52,7 +50,7 @@ function game() {
 
   answer = divarea[Math.ceil(Math.random() * 6) - 1];
 
-  document.getElementById("text").innerHTML = `${answer}`;
+  document.getElementById("text").innerHTML = `(${answer})`;
 }
 
 game();
@@ -63,6 +61,9 @@ function Func1() {
     document.querySelector("#score").innerHTML = counter;
     correct.play();
     game();
+
+    // document.querySelector(".div1").classList.add("correct")
+    // document.querySelector(".div1").classList.add("zero")
   } else {
     counter = 0;
     document.querySelector("#score").innerHTML = counter;
@@ -83,6 +84,7 @@ function Func2() {
     wrong.play();
   }
 }
+
 function Func3() {
   if (d3 == answer) {
     counter++;
@@ -96,6 +98,7 @@ function Func3() {
     wrong.play();
   }
 }
+
 function Func4() {
   if (d4 == answer) {
     counter++;
@@ -109,6 +112,7 @@ function Func4() {
     wrong.play();
   }
 }
+
 function Func5() {
   if (d5 == answer) {
     counter++;
@@ -122,6 +126,7 @@ function Func5() {
     wrong.play();
   }
 }
+
 function Func6() {
   if (d6 == answer) {
     counter++;
@@ -135,3 +140,4 @@ function Func6() {
     wrong.play();
   }
 }
+

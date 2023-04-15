@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.deneme{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+}
+
+.deneme:hover{
+    transform: translateY(-5px);
+
+}
+.deneme img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+
+.deneme .level-div{
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 10px inset rgb(255, 255, 255);
+/* 
+    box-shadow: rgb(255, 255, 255) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset; */
+
+    
+    border-radius: 7px;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+.deneme .level-div p{
+    color: white;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+}
