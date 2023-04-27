@@ -1,5 +1,133 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//********************************************/
+//* Variable Declaration
+//********************************************/
+
+
+$bgcolor: pink;
+$myblue: blue;
+$ff: "Josefin Sans", sans-serif;
+$fontsize: 1.3rem;
+$myBorder: 3px solid rgb(55, 54, 54);
+$headerbg: #30a7c3;
+$textColor: white;
+
+//?______________________HEADER___________________
+
+body{
+    background: $bgcolor;
+}
+header {
+  background: $headerbg;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+
+  img {
+    border: $myBorder;
+    width: 90px;
+    border-radius: 10px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: .8rem;
+  }
+
+  li {
+    color: $textColor;
+    font-size: $fontsize;
+    font-family: $ff;
+    
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+  }
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FF69B4;
+    padding: 1rem;
+
+    .section-left{
+    h2{
+        color: $textColor;
+        font-size: $fontsize * 1.7;
+    }
+
+    p{
+        color: $textColor;
+        font-size: $fontsize;
+        font-family: $ff;
+        line-height: 2rem;
+        
+    }
+
+    button{
+        background: pink;
+        border: none;
+        border-radius: 10px;
+        width: 100px;
+        height: 32px;
+
+        &:hover{
+            background: rgb(252, 215, 221);
+            cursor: pointer;
+        }
+
+
+    }
+  }
+
+  img{
+    width: 250px;
+  }
+}
+
+//*******  CARDS  *********/
+//*****************
+//! @MIXIN
+//*****************
+
+@mixin myBox($color,$bgcolor) {
+    background: $bgcolor;
+        color: $color;
+        height: 240px;
+        width: 25%;
+        border: $myBorder;
+        border-radius: 10px;
+        font-size: $fontsize;
+        font-family:$ff;
+}
+
+.cards{
+    display: flex;
+    gap: .8rem;
+    padding: .5rem;
+
+    .card1{
+        @include myBox(red, blue)
+    }
+    .card2{
+        @include myBox(orange, purple)
+    }
+    .card3{
+        @include myBox(white, rgb(151, 114, 120))
+    }
+    .card4{
+        @include myBox(orangered, rgb(120, 149, 84))
+    }
 }
