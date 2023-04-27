@@ -154,6 +154,82 @@ header li:hover {
 footer p {
   background: gray;
   color: white;
+  font-size: 1.3rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5rem;
+}
+footer .social-icons {
+  padding: 0.5rem;
+  gap: 0.1rem;
+  display: flex;
+  height: 20rem;
+}
+footer .social-icons .social1 {
+  width: 20%;
+  background-color: #8b8bab;
+  font-size: 1rem;
+  color: #990000;
+}
+footer .social-icons .social2 {
+  width: 20%;
+  background-color: #7c7ca1;
+  font-size: 2rem;
+  color: #55004e;
+}
+footer .social-icons .social3 {
+  width: 20%;
+  background-color: #6e6e96;
+  font-size: 3rem;
+  color: #0fa8a1;
+}
+footer .social-icons .social4 {
+  width: 20%;
+  background-color: #626288;
+  font-size: 4rem;
+  color: red;
+}
+footer .social-icons .social5 {
+  width: 20%;
+  background-color: #575779;
+  font-size: 5rem;
+  color: #64c217;
+}
+footer .social-icons:hover {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+footer .social-icons:hover .social1 {
+  width: 20%;
+  background-color: #a9a9c1;
+  font-size: 1rem;
+  color: #990000;
+}
+footer .social-icons:hover .social2 {
+  width: 20%;
+  background-color: #b8b8cb;
+  font-size: 2rem;
+  color: #55004e;
+}
+footer .social-icons:hover .social3 {
+  width: 20%;
+  background-color: #c6c6d6;
+  font-size: 3rem;
+  color: #0fa8a1;
+}
+footer .social-icons:hover .social4 {
+  width: 20%;
+  background-color: #d5d5e1;
+  font-size: 4rem;
+  color: red;
+}
+footer .social-icons:hover .social5 {
+  width: 20%;
+  background-color: #e4e4eb;
+  font-size: 5rem;
+  color: #64c217;
+}
+footer .social-icons div:hover {
+  border: 3px solid rgb(55, 54, 54);
 }
 
 /*# sourceMappingURL=style.css.map */
