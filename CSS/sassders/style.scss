@@ -158,12 +158,29 @@ header {
         background: gray;
         border: $myBorder;
         border-radius: 20px;
+        font-size: $fontsize;
+        font-family: $ff;
         &:hover{
             cursor: pointer;
             transform: translateY(-5px);
             transition: all .1s;
         }
     }
+
+    .article2{
+        @extend .article1;
+        color: rgb(88, 0, 88);
+        background: rgb(113, 113, 232);
+    }
    
+}
+
+// -_-_-_-_-_-_-_-_-_-_-_-_-FOOTER-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+footer{
+    p{
+        background: gray;
+        color: $textColor;
+    }
 }
 
