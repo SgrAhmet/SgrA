@@ -40,7 +40,7 @@ header li:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #FF69B4;
+  background: #ff69b4;
   padding: 1rem;
 }
 .banner .section-left h2 {
@@ -112,6 +112,37 @@ header li:hover {
   border-radius: 10px;
   font-size: 1.3rem;
   font-family: "Josefin Sans", sans-serif;
+}
+.cards div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards div:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: all 0.1s;
+}
+
+.articles {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+.articles .article1 {
+  height: 160px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: gray;
+  border: 3px solid rgb(55, 54, 54);
+  border-radius: 20px;
+}
+.articles .article1:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: all 0.1s;
 }
 
 /*# sourceMappingURL=style.css.map */
