@@ -1,5 +1,59 @@
-body{
-    background-color: black;
-    /* background-color: white; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* height: 1000px; */
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding: 1rem;
+  width: 1200px;
+  height: 78px;
+  position: sticky;
+  top: 0px;
+  left: 160px;
+
+  justify-content: space-between;
+  
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+header img {
+  width: 50px;
+}
+
+header a {
+  display: inline-block;
+  color: rgb(77, 77, 77);
+
+  text-decoration: none;
+  /* font-family: 'Braah One', sans-serif; */
+}
+
+header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right i{
+    color: rgb(77, 77, 77);
+    font-size:x-large;
+}
+.header-right i:hover{
+    cursor: pointer;
     color: white;
 }
