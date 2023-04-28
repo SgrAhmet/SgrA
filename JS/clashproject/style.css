@@ -137,7 +137,7 @@ header a:hover {
 
 
 
-/* CSS */
+/* BUTTON_CSS ---------------------------------------*/
 .button-55 {
   align-self: center;
   background-color: #fff;
@@ -176,4 +176,14 @@ header a:hover {
 
 .button-55:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+ 
 }
+.button-55:active{
+  transform: translate3d(0px, 5px, 0);
+  
+
+}
+
+/* BUTTON_CSS -------------------------------------------------*/
+
+
