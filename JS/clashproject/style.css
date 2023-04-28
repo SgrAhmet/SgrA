@@ -8,7 +8,7 @@ body{
     padding: 10px;
 }
 .deneme{
-    /* border: 2px solid red; */
+    position: relative;
     display: inline-block;
     position: relative;
 }
@@ -60,4 +60,12 @@ body{
 p{
     text-align: justify;
 
+}
+
+.gray{
+    position: absolute;
+    background-color: rgba(154, 94, 94, 0.723);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
 }
