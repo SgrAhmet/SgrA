@@ -200,7 +200,7 @@ header a:hover {
 main{
   /* background-image: url(./img/maxresdefault.jpg); */
   padding: 1rem;
-  width: 70%;
+  width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -231,6 +231,11 @@ main .cards{
   background-color:#f69c2d5c ;
 }
 
+main .cards:hover{
+  transform: translateY(-15px);
+  transition: all .3s;
+  cursor: pointer;
+}
 main .cards p{
   position: absolute;
   bottom: 10px;
@@ -242,6 +247,8 @@ main .cards p{
   text-align: center;
   background-color: rgb(67, 67, 67);
   border-radius: 5px;
+
+  box-shadow: rgba(0, 0, 0, 0.792) 0px 0px 10px;
 }
 
 .card-1{
@@ -281,4 +288,7 @@ main .cards p{
 .card-12{
   background-image: url(./img/buildings/Scattershot2.webp);
 }
+
+
+
 

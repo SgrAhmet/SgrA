@@ -34,45 +34,73 @@ const scattershot  = new Buildings("X","X","X","X","X","X","X","X","X","X","X","
 var thlevel;
 
 function function1() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(1)").style.backgroundColor = "#d97c0b"
   thlevel = 1;
 }
 function function2() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(2)").style.backgroundColor = "#d97c0b"
   thlevel = 2;
 }
 function function3() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(3)").style.backgroundColor = "#d97c0b"
   thlevel = 3;
 }
 function function4() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(4)").style.backgroundColor = "#d97c0b"
   thlevel = 4;
 }
 function function5() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(5)").style.backgroundColor = "#d97c0b"
   thlevel = 5;
 }
 function function6() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(6)").style.backgroundColor = "#d97c0b"
   thlevel = 6;
 }
 function function7() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(7)").style.backgroundColor = "#d97c0b"
   thlevel = 7;
 }
 function function8() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(9)").style.backgroundColor = "#d97c0b"
   thlevel = 8;
 }
 function function9() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(10)").style.backgroundColor = "#d97c0b"
   thlevel = 9;
 }
 function function10() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(11)").style.backgroundColor = "#d97c0b"
   thlevel = 10;
 }
 function function11() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(12)").style.backgroundColor = "#d97c0b"
   thlevel = 11;
 }
 function function12() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(13)").style.backgroundColor = "#d97c0b"
   thlevel = 12;
 }
 function function13() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(14)").style.backgroundColor = "#d97c0b"
   thlevel = 13;
 }
 function function14() {
+  document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
+  document.querySelector(".banner2 button:nth-child(15)").style.backgroundColor = "#d97c0b"
   thlevel = 14;
 }
 
@@ -94,3 +122,8 @@ document.querySelector(".card-12 p").innerHTML = `${scattershot[`th${thlevel}`]}
 
 
 }
+
+// document.querySelectorAll("button").style.backgroundColor = "red" 
+
+
+
