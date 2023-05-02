@@ -119,7 +119,7 @@ header a:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    margin-bottom: 2rem;
     height: 70px;
 }
 
@@ -186,30 +186,78 @@ header a:hover {
 
 /* BUTTON_CSS -------------------------------------------------*/
 
-main{
+/* main{
   width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-row: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr  ;
+
+} */
+main{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  border: 5px solid rgb(0, 255, 47);
+  gap: 2rem;
+  
 
 }
 
-main div{
+
+/* main div{
   width: 150px;
+  height: 200px;
   border: 1px solid red;
 
-}
-main img{
-  /* width: 150px; */
-  
-}
-
-.deneme{
+} */
+/* !----------------------------- */
+main .cards{
   width: 200px;
   height: 200px;
   border:  2px solid blue;
-  background-image:url(./img/Mortar5.webp);
+  /* background-image:url(./img/Mortar5.webp); */
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.card-1{
+  background-image: url(./img/buildings/Cannon10.webp);
+}
+.card-2{
+  background-image: url(./img/buildings/Archer_Tower10.webp);
+}
+.card-3{
+  background-image: url(./img/buildings/Mortar7.webp);
+}
+.card-4{
+  background-image: url(./img/buildings/Air_Defense7.webp);
+
+}
+.card-5{
+  background-image: url(./img/buildings/Wizard_Tower7.webp);
+}
+.card-6{
+  background-image: url(./img/buildings/Air_Sweeper5.webp);
+}
+.card-7{
+  background-image: url(./img/buildings/Hidden_Tesla8.webp);
+}
+.card-8{
+  background-image: url(./img/buildings/Bomb_Tower2.webp);
+}
+.card-9{
+  background-image: url(./img/buildings/X-Bow3_Ground.webp);
+}
+.card-10{
+  background-image: url(./img/buildings/Inferno_Tower4_Single.webp);
+}
+.card-11{
+  background-image: url(./img/buildings/Eagle_Artillery3.webp);
+}
+.card-12{
+  background-image: url(./img/buildings/Scattershot2.webp);
+}
+
