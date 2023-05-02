@@ -11,28 +11,26 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 4px rgb(64, 64, 64); 
+  box-shadow: inset 0 0 4px rgb(64, 64, 64);
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(77, 77, 77); 
+  background: rgb(77, 77, 77);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #616161; 
+  background: #616161;
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  /* border: 3px solid red; */
-  background-color: #FBAB7E;
-background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
 }
 
 header {
@@ -62,7 +60,6 @@ header a {
   color: rgb(77, 77, 77);
 
   text-decoration: none;
-  /* font-family: 'Braah One', sans-serif; */
 }
 
 header a:hover {
@@ -78,23 +75,22 @@ header a:hover {
 }
 
 .header-right input {
-    background-color: black;
-    border: none;
-    border-bottom: 2px solid rgb(40, 40, 40);
-    /* border: 2px solid red; */
-    width: 280px;
-    height: 40px;
-    color: rgb(198, 195, 195);
-    font-size: 14px;
-    padding-top: .5rem;
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid rgb(40, 40, 40);
+  /* border: 2px solid red; */
+  width: 280px;
+  height: 40px;
+  color: rgb(198, 195, 195);
+  font-size: 14px;
+  padding-top: 0.5rem;
 
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-    
 }
 
-.header-right input:focus{
-    outline: none;
+.header-right input:focus {
+  outline: none;
 }
 .header-right i {
   margin-right: 0.5rem;
@@ -104,41 +100,37 @@ header a:hover {
 .header-right i:hover {
   cursor: pointer;
   color: white;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
-.banner1{
-    width: 100%;
+.banner1 {
+  width: 100%;
 }
-.banner1 img{
-    width: 100%;
-    /* border: 3px solid red; */
-}
-
-.banner2{
-    margin-top: -5px;
-    top: 100px;
-    background-color: #F69D2D;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 2rem;
-    height: 70px;
+.banner1 img {
+  width: 100%;
 }
 
-.banner2 img{
-    width: 200px;
-    position: relative;
-    bottom: 30px;
-}
-.banner2 button{
-    height: 25px;
-    width: 70px;
-  font-family: 'Ubuntu', sans-serif;
-    
+.banner2 {
+  margin-top: -5px;
+  top: 100px;
+  background-color: #f69d2d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  height: 70px;
 }
 
-
+.banner2 img {
+  width: 200px;
+  position: relative;
+  bottom: 30px;
+}
+.banner2 button {
+  height: 25px;
+  width: 70px;
+  font-family: "Ubuntu", sans-serif;
+}
 
 /* BUTTON_CSS ---------------------------------------*/
 .button-55 {
@@ -151,7 +143,7 @@ header a:hover {
   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
   border-style: solid;
   border-width: 2px;
-  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
   box-sizing: border-box;
   color: #41403e;
   cursor: pointer;
@@ -160,7 +152,7 @@ header a:hover {
   font-size: 1rem;
   line-height: 3px;
   outline: none;
-  padding: .75rem;
+  padding: 0.75rem;
   text-decoration: none;
   transition: all 235ms ease-in-out;
   border-bottom-left-radius: 15px 255px;
@@ -173,70 +165,53 @@ header a:hover {
 }
 
 .button-55:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
   transform: translate3d(0, 2px, 0);
 }
 
 .button-55:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
- 
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
 }
-.button-55:active{
+.button-55:active {
   transform: translate3d(0px, 5px, 0);
-  
-
 }
+/* !w------------------------------------------------- */
 
-/* BUTTON_CSS -------------------------------------------------*/
 
-/* main{
-  width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr  ;
 
-} */
-main{
-  /* background-image: url(./img/maxresdefault.jpg); */
+
+
+
+/* !w------------------------------------------------- */
+main {
   padding: 1rem;
   width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
-  /* border: 5px solid rgb(0, 255, 47); */
+  justify-content: space-around;
   gap: 2rem;
-  
-
 }
 
 
-/* main div{
-  width: 150px;
-  height: 200px;
-  border: 1px solid red;
-
-} */
 /* !----------------------------- */
-main .cards{
+main .cards {
   position: relative;
   width: 200px;
   height: 200px;
-  border:  4px solid #F69D2D;
+  border: 4px solid #f69d2d;
   border-radius: 15px;
-  /* background-image:url(./img/Mortar5.webp); */
   background-repeat: no-repeat;
   background-size: contain;
-  background-color:#f69c2d5c ;
+  background-color: #f69c2d5c;
 }
 
-main .cards:hover{
+main .cards:hover {
   transform: translateY(-15px);
-  transition: all .3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
-main .cards p{
+main .cards p {
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -251,44 +226,39 @@ main .cards p{
   box-shadow: rgba(0, 0, 0, 0.792) 0px 0px 10px;
 }
 
-.card-1{
+.card-1 {
   background-image: url(./img/buildings/Cannon10.webp);
 }
-.card-2{
+.card-2 {
   background-image: url(./img/buildings/Archer_Tower10.webp);
 }
-.card-3{
+.card-3 {
   background-image: url(./img/buildings/Mortar7.webp);
 }
-.card-4{
+.card-4 {
   background-image: url(./img/buildings/Air_Defense7.webp);
-
 }
-.card-5{
+.card-5 {
   background-image: url(./img/buildings/Wizard_Tower7.webp);
 }
-.card-6{
+.card-6 {
   background-image: url(./img/buildings/Air_Sweeper5.webp);
 }
-.card-7{
+.card-7 {
   background-image: url(./img/buildings/Hidden_Tesla8.webp);
 }
-.card-8{
+.card-8 {
   background-image: url(./img/buildings/Bomb_Tower2.webp);
 }
-.card-9{
+.card-9 {
   background-image: url(./img/buildings/X-Bow3_Ground.webp);
 }
-.card-10{
+.card-10 {
   background-image: url(./img/buildings/Inferno_Tower4_Single.webp);
 }
-.card-11{
+.card-11 {
   background-image: url(./img/buildings/Eagle_Artillery3.webp);
 }
-.card-12{
+.card-12 {
   background-image: url(./img/buildings/Scattershot2.webp);
 }
-
-
-
-

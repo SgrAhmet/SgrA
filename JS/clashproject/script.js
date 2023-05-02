@@ -18,7 +18,7 @@ function Buildings(th1, th2, th3, th4, th5, th6, th7,th8,th9,th10,th11,th12,th13
 }
 
 const cannon = new Buildings(2,3,4,5,6,7,8,10,11,13,15,17,19,20);
-const archer = new Buildings("X",2,3,4,5,6,7,8,10,11,13,15,17,19,20);
+const archer = new Buildings("X",2,3,4,6,7,8,10,11,13,15,17,19,20);
 const mortar = new Buildings("X","X",1,2,3,4,5,6,7,8,10,12,13,14);
 const airDefense = new Buildings("X","X","X",2,3,4,5,6,7,8,9,10,11,12);
 const wizardTower  = new Buildings("X","X","X","X",2,3,4,6,7,9,10,11,13,14);
@@ -36,72 +36,92 @@ var thlevel;
 function function1() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(1)").style.backgroundColor = "#d97c0b"
+
   thlevel = 1;
+  document.title = `TownHall ${thlevel}`
 }
 function function2() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(2)").style.backgroundColor = "#d97c0b"
+
   thlevel = 2;
+  document.title = `TownHall ${thlevel}`
+
 }
 function function3() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(3)").style.backgroundColor = "#d97c0b"
   thlevel = 3;
+  document.title = `TownHall ${thlevel}`
+
 }
 function function4() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(4)").style.backgroundColor = "#d97c0b"
   thlevel = 4;
+  document.title = `TownHall ${thlevel}`
+
 }
 function function5() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(5)").style.backgroundColor = "#d97c0b"
   thlevel = 5;
+  document.title = `TownHall ${thlevel}`
+
 }
 function function6() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(6)").style.backgroundColor = "#d97c0b"
   thlevel = 6;
+  document.title = `TownHall ${thlevel}`
 }
 function function7() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(7)").style.backgroundColor = "#d97c0b"
   thlevel = 7;
+  document.title = `TownHall ${thlevel}`
 }
 function function8() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(9)").style.backgroundColor = "#d97c0b"
   thlevel = 8;
+  document.title = `TownHall ${thlevel}`
 }
 function function9() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(10)").style.backgroundColor = "#d97c0b"
   thlevel = 9;
+  document.title = `TownHall ${thlevel}`
 }
 function function10() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(11)").style.backgroundColor = "#d97c0b"
   thlevel = 10;
+  document.title = `TownHall ${thlevel}`
 }
 function function11() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(12)").style.backgroundColor = "#d97c0b"
   thlevel = 11;
+  document.title = `TownHall ${thlevel}`
 }
 function function12() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(13)").style.backgroundColor = "#d97c0b"
   thlevel = 12;
+  document.title = `TownHall ${thlevel}`
 }
 function function13() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(14)").style.backgroundColor = "#d97c0b"
   thlevel = 13;
+  document.title = `TownHall ${thlevel}`
 }
 function function14() {
   document.querySelectorAll("button").forEach(i => i.style.backgroundColor = "white")
   document.querySelector(".banner2 button:nth-child(15)").style.backgroundColor = "#d97c0b"
   thlevel = 14;
+  document.title = `TownHall ${thlevel}`
 }
 
 
@@ -123,7 +143,8 @@ document.querySelector(".card-12 p").innerHTML = `${scattershot[`th${thlevel}`]}
 
 }
 
-// document.querySelectorAll("button").style.backgroundColor = "red" 
+// let num = 3
 
+// document.querySelector(`.banner2 button:nth-child(${num})`).style.backgroundColor = "red"
 
 
