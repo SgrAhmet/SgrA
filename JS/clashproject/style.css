@@ -27,9 +27,9 @@
 }
 
 body {
-  height: 1000px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  /* border: 3px solid red; */
 }
 
 header {
@@ -186,4 +186,30 @@ header a:hover {
 
 /* BUTTON_CSS -------------------------------------------------*/
 
+main{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr ;
 
+}
+
+main div{
+  width: 150px;
+  border: 1px solid red;
+
+}
+main img{
+  /* width: 150px; */
+  
+}
+
+.deneme{
+  width: 200px;
+  height: 200px;
+  border:  2px solid blue;
+  background-image:url(./img/Mortar5.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
