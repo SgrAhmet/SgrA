@@ -79,8 +79,18 @@ function function14() {
 
 
 function mainFunction() {
-  document.getElementById("mortar").innerHTML = `${mortar[`th${thlevel}`]}`;
+document.querySelector(".card-1 p").innerHTML = `${cannon[`th${thlevel}`]}`;
+document.querySelector(".card-2 p").innerHTML = `${archer[`th${thlevel}`]}`;
+document.querySelector(".card-3 p").innerHTML = `${mortar[`th${thlevel}`]}`;
+document.querySelector(".card-4 p").innerHTML = `${airDefense[`th${thlevel}`]}`;
+document.querySelector(".card-5 p").innerHTML = `${wizardTower[`th${thlevel}`]}`;
+document.querySelector(".card-6 p").innerHTML = `${airSweper[`th${thlevel}`]}`;
+document.querySelector(".card-7 p").innerHTML = `${hiddenTesla[`th${thlevel}`]}`;
+document.querySelector(".card-8 p").innerHTML = `${bombTower[`th${thlevel}`]}`;
+document.querySelector(".card-9 p").innerHTML = `${xBow[`th${thlevel}`]}`;
+document.querySelector(".card-10 p").innerHTML = `${infernoTower[`th${thlevel}`]}`;
+document.querySelector(".card-11 p").innerHTML = `${eagleArtillery[`th${thlevel}`]}`;
+document.querySelector(".card-12 p").innerHTML = `${scattershot[`th${thlevel}`]}`;
 
-  
+
 }
-
