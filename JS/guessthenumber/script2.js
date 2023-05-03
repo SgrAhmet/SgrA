@@ -30,12 +30,12 @@ let count = 1
 let guess = Number(prompt("Please Enter Your Guess"))
 
 
-// ?Aklım yetmedi buraya her seferinde sormuyo ?\\
+
 while(guess > 100 || guess < 0){
 
     guess = Number(prompt("Please Guess number between 1 and 100 "))
 }
-// ?Aklım yetmedi buraya her seferinde sormuyo ?\\
+
 
 
 
