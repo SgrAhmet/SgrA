@@ -5,6 +5,7 @@
 
         &:hover{
             color: $secondary-color;
+            
         }
     }
 }
@@ -44,4 +45,17 @@ footer.vertical{
         transform: rotate(90deg) translate(-3rem,-5rem);
         // writing-mode: vertical-lr;
     }
+}
+
+
+footer.middle{
+    // border: 1px solid red;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    @extend .link-style;
 }
