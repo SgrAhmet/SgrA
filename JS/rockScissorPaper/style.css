@@ -61,8 +61,13 @@ main{
 .select{
     margin-top: 3rem ;
     display: flex;
+    /* flex-wrap: wrap; */
     /* justify-content: space-around; */
-    gap: 10rem;
+
+    /* !Burayı AÇ */
+    /* gap: 10rem; */
+
+
     font-size: 64px;
 }
 .select i:hover{
@@ -71,6 +76,7 @@ main{
 }
 
 .main-container{
+    
     margin-top: 2rem;
     background-color: #93BFCF;
     height:36% ;
