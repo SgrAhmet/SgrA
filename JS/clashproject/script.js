@@ -148,3 +148,8 @@ document.querySelector(".card-12 p").innerHTML = `${scattershot[`th${thlevel}`]}
 // document.querySelector(`.banner2 button:nth-child(${num})`).style.backgroundColor = "red"
 
 
+// const deneme = document.querySelector(".banner2")
+
+// deneme.addEventListener("click", (e)=>{
+//   console.log(e.target.innerText)
+// })
