@@ -76,6 +76,7 @@ main{
 #select i:hover{
     cursor: pointer;
     color: #c3beb1;
+  
 }
 
 .main-container{
@@ -179,5 +180,10 @@ main{
 }
 
 #reset-btn:hover{
-    background-color:#c5c0b3;
+    background-color: #c3beb1;
+    cursor: pointer;
+}
+
+#black-color{
+    color: #a5a196;
 }

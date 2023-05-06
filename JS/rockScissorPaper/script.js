@@ -35,10 +35,14 @@ selectArea.addEventListener("click", (e) => {
       .querySelectorAll("#select i")
       .forEach((e) => (e.style.color = "#EEE9DA"));
 
-    yourChoiceArea.innerHTML = `<i class="${e.target.classList.value}"></i>`;
+    yourChoiceArea.innerHTML = `<i id="black-color" class="${e.target.classList.value}"></i>`;
     yourChoice = e.target.classList.value;
 
     e.target.style.color = "#a5a196";
+    setTimeout(time,2000)
+    function time(){
+      e.target.style.color = "#EEE9DA"
+    }
     pc();
   }
 });
@@ -46,8 +50,16 @@ selectArea.addEventListener("click", (e) => {
 // ____________________PC-Seçim-Yapma______________________________________
 
 function pc() {
-  // pcChoice = choiceArea[Math.floor(Math.random() * 3)];
-  pcChoice = choiceArea[0];
+  pcChoice = choiceArea[Math.floor(Math.random() * 3)];
+  // pcChoice = choiceArea[0]; //Deneme Yapmak İçin
+  // Hileli Mod
+  // if(yourChoice == tas){
+  //   pcChoice = kagıt
+  // }else if(yourChoice == makas){
+  //   pcChoice =tas
+  // }else{
+  //   pcChoice = makas
+  // }
   pcChoiceArea.innerHTML = `<i class="${pcChoice}"></i>`;
   game();
 }
@@ -128,6 +140,9 @@ function lose() {
 document.getElementById("reset-btn").addEventListener("click",()=>{
 localStorage.setItem("pcTotalScore", 0);
 localStorage.setItem("yourTotalScore", 0);
-topPcScoreArea.innerHTML = storagedPcScore;
-topYourScoreArea.innerHTML = storagedYourScore;
+storagedPcScore = localStorage.getItem("storagedPcScore")
+storagedYourScore = localStorage.getItem("storagedYourScore")
+topPcScoreArea.innerHTML = 0;
+topYourScoreArea.innerHTML = 0;
 })
+
