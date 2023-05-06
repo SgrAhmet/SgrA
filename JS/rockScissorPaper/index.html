@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Rock-Scissor-Paper</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <div class="hub">
-            <div class="top-score-area">
-                <p>Top Score : <span id="top-score">2-3</span></p>
-            </div>
-            <div class="scores">
-                You <span id="your-score">0</span>
-               :
-                <span id="pc-score">0</span> PC
-            </div>
-            <div class="sentence">
-                <p>Please make your selection
-                </p>
-            </div>
-            <div id="select">
-                <div class="">
-                    <i class="fa-regular fa-hand-back-fist fa-rotate-90"></i>
-                </div>
-
-                <div class="">
-                    <i class="fa-regular fa-hand"></i>
-                </div>
-
-                <div class="">
-                    <i class="fa-regular fa-hand-scissors fa-flip-horizontal"></i>
-                </div>
-            </div>
+      <div class="hub">
+        <div class="top-score-area">
+          <p>Top Score : <span id="top-your-score"></span>-<span id="top-pc-score"></span></p>
         </div>
-
-        <div class="main-container">
-            <div class="match">
-              <div id="your-choice"></div>
-              <div id="pc-choice"></div>
-            </div>
-            <div class="result">
-              <div class="result-msg"></div>
-            </div>
+        <div class="scores">
+          You <span id="your-score">0</span>
+          :
+          <span id="pc-score">0</span> PC
+        </div>
+        <div class="sentence">
+          <p>Please make your selection</p>
+        </div>
+        <div id="select">
+          <div class="">
+            <i class="fa-regular fa-hand-back-fist fa-rotate-90"></i>
           </div>
-      
-        
-    </main>
 
+          <div class="">
+            <i class="fa-regular fa-hand"></i>
+          </div>
+
+          <div class="">
+            <i class="fa-regular fa-hand-scissors fa-flip-horizontal"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="match">
+          <div id="your-choice"></div>
+          <div id="pc-choice"></div>
+        </div>
+        <div class="result">
+          <div class="result-msg"></div>
+        </div>
+      </div>
+    </main>
+    <div class="modal-area">
+        <div class="modal-ltl-area">
+      <p>
+        Game Over <br />
+        <span id="modal-msg">😞You Lost😞</span>
+      </p>
+      <button id="modal-btn">Play Again</button>
+    </div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

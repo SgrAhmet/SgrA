@@ -5,12 +5,14 @@
 }
 
 body{
+    position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
     font-family: 'Nunito', sans-serif;
     color: #EEE9DA;
     background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% );
+
 }
 
 main{
@@ -47,7 +49,7 @@ main{
 }
 
 .scores{
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -66,7 +68,7 @@ main{
    
 
     /* !Burayı AÇ */
-    gap: 10rem;
+    /* gap: 10rem; */
     
     
     font-size: 64px;
@@ -118,6 +120,48 @@ main{
     font-size: 100px;
 }
 
-#black-color{
-    color: #a5a196;
+.modal-area{
+    display: none;
+   align-items: center;
+   justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.modal-ltl-area{
+  
+    background-color: #2b4350;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 30%;
+    height: 30%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    
+}
+
+.modal-ltl-area button{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;;
+   border: none;
+   outline: none;
+   padding: .5rem;
+   border-radius: 5px;
+   background-color: #EEE9DA;
+   color: #2b4350;
+}
+
+.modal-ltl-area button:hover{
+   transition: all .3s;
+    background-color: #6096B4;
+    color: #EEE9DA;
+    cursor: pointer;
 }
