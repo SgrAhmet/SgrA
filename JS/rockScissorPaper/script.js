@@ -39,9 +39,10 @@ selectArea.addEventListener("click", (e) => {
     yourChoice = e.target.classList.value;
 
     e.target.style.color = "#a5a196";
-    setTimeout(time,2000)
+    setTimeout(time,1000)
     function time(){
       e.target.style.color = "#EEE9DA"
+      
     }
     pc();
   }

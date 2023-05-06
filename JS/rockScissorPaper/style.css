@@ -123,6 +123,7 @@ main{
 
 .modal-area{
     display: none;
+    /* display: flex; */
    align-items: center;
    justify-content: center;
     text-align: center;
@@ -187,3 +188,99 @@ main{
 #black-color{
     color: #a5a196;
 }
+
+/* Responsive */
+@media only screen and (max-width:992px) {
+    #select{
+        gap: 6rem;
+
+    }
+    .match{
+        font-size: 100px ;
+        gap: 5rem;
+    }
+    .modal-ltl-area{
+    font-size: 22px;
+
+    }
+    .modal-ltl-area button{
+    font-size: 17px;
+        padding: .5rem;
+    }
+  }
+@media only screen and (max-width:768px) {
+    #select{
+        gap: 2rem;
+    }
+    .match{
+        font-size: 90px ;
+        gap: 4rem;
+    }
+    .modal-area{
+        align-items: flex-end;
+        padding-bottom: 3rem;
+    }
+    .modal-ltl-area{
+        font-size: 20px;
+        width: 60%;
+        }
+        .modal-ltl-area button{
+        font-size: 15px;
+            padding: .4rem;
+        }
+
+  }
+@media only screen and (max-width:576px) {
+    #select{
+        gap: 1rem;
+    }
+    .match{
+        font-size: 80px ;
+        gap: 3rem;
+    }
+    .modal-area{
+        align-items: flex-end;
+        padding-bottom: 4rem;
+        
+
+    }
+    .modal-ltl-area{
+        font-size: 18px;
+        width: 60%;
+        
+        }
+        .modal-ltl-area button{
+        font-size: 13px;
+            padding: .3rem;
+        }
+
+  }
+@media only screen and (max-width:410px) {
+    .scores{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #select{
+        gap: 1rem;
+    }
+    .match{
+        font-size: 80px ;
+        gap: 3rem;
+    }
+    .modal-area{
+        align-items: flex-end;
+        padding-bottom: 4rem;
+        
+
+    }
+    .modal-ltl-area{
+        font-size: 18px;
+        width: 60%;
+        
+        }
+        .modal-ltl-area button{
+        font-size: 13px;
+            padding: .3rem;
+        }
+
+  }
