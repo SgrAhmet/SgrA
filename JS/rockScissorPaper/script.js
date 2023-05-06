@@ -9,15 +9,19 @@ const choiceArea = [tas, kagıt, makas];
 let yourScore = document.querySelector("#your-score");
 let pcScore = document.querySelector("#pc-score");
 let storagedYourScore = localStorage.getItem("yourTotalScore");
-localStorage.setItem("yourTotalScore", 0);
+localStorage.setItem("yourTotalScore", storagedYourScore);
 const topYourScoreArea = document.getElementById("top-your-score");
 let storagedPcScore = localStorage.getItem("pcTotalScore");
-localStorage.setItem("pcTotalScore", 0);
+localStorage.setItem("pcTotalScore", storagedPcScore);
 const topPcScoreArea = document.getElementById("top-pc-score");
 topYourScoreArea.innerHTML = storagedYourScore;
 topPcScoreArea.innerHTML = storagedPcScore;
 let yourChoice;
 let pcChoice;
+
+
+
+
 // console.log(storagedYourScore,storagedPcScore)
 
 // let storagedScore = localStorage.getItem("highScore")
@@ -86,13 +90,13 @@ function game() {
   }
 
   if (pcScore.innerHTML >= 10) {
-    storagedPcScore = storagedPcScore + 1;
+    localStorage.setItem("pcTotalScore", +storagedPcScore + 1);
     topPcScoreArea.innerHTML = storagedPcScore;
 
     document.querySelector(".modal-area").style.display = "flex";
   }
   if (yourScore.innerHTML >= 10) {
-    storagedYourScore = storagedYourScore + 1;
+    localStorage.setItem("yourTotalScore", +storagedYourScore + 1);
     topYourScoreArea.innerHTML = storagedYourScore;
     document.querySelector(".modal-area").style.display = "flex";
     document.querySelector("#modal-msg").innerHTML = "🥳You Win🥳";
@@ -120,3 +124,10 @@ function lose() {
   document.querySelector(".result-msg").innerHTML = "You Lost";
   pcScore.innerHTML++;
 }
+
+document.getElementById("reset-btn").addEventListener("click",()=>{
+localStorage.setItem("pcTotalScore", 0);
+localStorage.setItem("yourTotalScore", 0);
+topPcScoreArea.innerHTML = storagedPcScore;
+topYourScoreArea.innerHTML = storagedYourScore;
+})

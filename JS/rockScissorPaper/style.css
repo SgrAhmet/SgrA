@@ -24,7 +24,7 @@ main{
 }
 
 .hub{
-    /* position: relative; */
+    position: relative;
     /* border: 2px solid red; */
     /* border-radius: 10px; */
     background-color: #6096B4;
@@ -68,7 +68,7 @@ main{
    
 
     /* !Burayı AÇ */
-    /* gap: 10rem; */
+    gap: 10rem;
     
     
     font-size: 64px;
@@ -164,4 +164,20 @@ main{
     background-color: #6096B4;
     color: #EEE9DA;
     cursor: pointer;
+}
+
+#reset-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 5px;
+    background-color:#EEE9DA;
+
+}
+
+#reset-btn:hover{
+    background-color:#c5c0b3;
 }
