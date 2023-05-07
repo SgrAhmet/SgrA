@@ -19,3 +19,5 @@ document.querySelector("input").addEventListener("keydown",(event)=>{
         document.querySelector(".inputs button").click()
     }
 })
+
+
