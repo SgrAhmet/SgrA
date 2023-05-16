@@ -105,12 +105,12 @@ ul li.checked p{
     color: rgb(0, 255, 0);
     text-decoration: line-through;
 }
-ul li.checked i:nth-child(1){
+/* ul li.checked i:nth-child(1){
     color: rgb(0, 255, 0);
 
 }
 ul li.checked i:nth-child(1):hover{
     color: rgb(0, 219, 0);
 
-}
+} */
 /* -----Checked------- */
