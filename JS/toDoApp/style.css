@@ -49,11 +49,13 @@ main .inputs button:hover{
 }
 .lists{
     width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 
 }
 
 .lists .list{
+  border: 1px solid blue;
+
   padding: .5rem;
   width: 100%;
   display: flex;
@@ -66,13 +68,37 @@ main .inputs button:hover{
   gap: 1rem;
 }
 .lists .list .left p{
-  
+
 }
+
+
 .lists .list i{
   font-size: 24px;
+  color: black;
+}
+.lists .list i:hover{
+cursor: pointer;
+color: rgb(125, 125, 125);
 }
 .lists .list .checkbox{
   width: 30px;
   height: 30px;
   border: 1px solid red;
+  border-radius: 10px;
+}
+.lists .list .checkbox:hover{
+ cursor: pointer;
+ border: 2px solid red;
+}
+
+.checked{
+  background-color: red;
+}
+.none{
+  display: none;
+}
+
+p.line-through{
+  color: rgb(92, 143, 15);
+  text-decoration:line-through;
 }
