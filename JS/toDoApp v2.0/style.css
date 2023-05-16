@@ -1,0 +1,116 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #AEE2FF;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #ACBCFF;
+    width: 80%;
+    padding: 1rem;
+}
+
+main h2{
+    text-align: center;
+    margin: .5rem;
+}
+
+main .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .container input[type="text"]{
+    width: 70%;
+    height: 40px;
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+main .container input[type="text"]:focus{
+    outline: none;
+}
+main .container input[type="button"]{
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: #E6FFFD;
+}
+
+main .container input[type="button"]:hover{
+    background-color: #bbece8;
+    cursor: pointer;
+}
+
+ul{
+    max-height: 500px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+ul li{
+    background-color: #B799FF;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+ul li i{
+    font-size: 26px;
+}
+ul li i:hover{
+    cursor: pointer;
+    color: rgb(98, 98, 98);
+}
+ul li i.fa-trash-can{
+    position: absolute;
+    right: 3%;
+}
+
+ul li p{
+    font-size: 22px;
+}
+
+
+/* -----Checked------- */
+
+ul li.checked p{
+    color: rgb(0, 255, 0);
+    text-decoration: line-through;
+}
+ul li.checked i:nth-child(1){
+    color: rgb(0, 255, 0);
+
+}
+ul li.checked i:nth-child(1):hover{
+    color: rgb(0, 219, 0);
+
+}
+/* -----Checked------- */
