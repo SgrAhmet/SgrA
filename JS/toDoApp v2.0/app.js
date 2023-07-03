@@ -65,13 +65,12 @@ htmlUl.addEventListener("click",(e)=>{
         e.target.closest("li").classList.toggle("checked")
 
     //   e.target.closest("li").id
-    todoList.filter((a)=>{
-        a.id == e.target.closest("li").id
-        
-    }).forEach(()=>{
-        console.log("ahmet")
-    })
+      // if(){
+
+      // }
     }
     
 })
+
+
 

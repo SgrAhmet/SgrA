@@ -102,7 +102,7 @@ ul li p{
 /* -----Checked------- */
 
 ul li.checked p{
-    color: rgb(0, 255, 0);
+    /* color: rgb(0, 255, 0); */
     text-decoration: line-through;
 }
 /* ul li.checked i:nth-child(1){
