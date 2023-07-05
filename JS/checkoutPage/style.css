@@ -22,7 +22,53 @@ body{
     border-radius: 10px;
     border: 2px solid #b2b2b2;
     background-color: white;
+    padding: 1rem;
 
+}
+
+.container .shoppingCartDiv .product{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.container .shoppingCartDiv .product .main{
+    display: flex;
+}
+.container .shoppingCartDiv .product .main .rightDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+.container .shoppingCartDiv .product .main .rightDiv .buttons{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(255, 183, 0); */
+}
+
+.styleButtonDiv{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0.25rem 1rem 0.25rem 1rem;
+}
+.styleButtonDiv i.fa-minus{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.styleButtonDiv i.fa-plus{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.container .shoppingCartDiv .product .price{
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    font-size: 20px;
+    
 }
 .container .pricesDiv{
     
