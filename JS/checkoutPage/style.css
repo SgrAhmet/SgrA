@@ -6,13 +6,14 @@
 
 body{
     font-family:  'Nunito', sans-serif;;
-    background-color: #F5F5F5;
+    background-color: #eceaea;
+    
 }
 
 .container{
     padding: 10px;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 150vh;
 
 }
@@ -20,6 +21,7 @@ body{
     width: 80%;
     border-radius: 10px;
     border: 2px solid #b2b2b2;
+    background-color: white;
 
 }
 .container .pricesDiv{
@@ -35,6 +37,7 @@ body{
     padding: 1rem;
     border-radius: 10px;
     border: 2px solid #b2b2b2;
+    background-color: white;
     
 }
 
@@ -43,13 +46,14 @@ body{
     justify-content: space-between;
 
     height: 25%;
-    border-top: 1px solid black;
+    border-top: 1px solid #2d2d2d;
     
 }
 
 .container .pricesDiv div p{
     font-size: 20px;
+    color: #2d2d2d;
 }
 .container div {
-    background-color: white;
+    /* background-color: white; */
 }
