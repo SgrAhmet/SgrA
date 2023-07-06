@@ -95,7 +95,7 @@ body{
     display: flex;
     align-items: center;
 }
-.container .shoppingCartDiv .product .price{
+.container .shoppingCartDiv .product .priceDiv{
     display: flex;
     align-items: flex-end;
     padding: 1rem;
