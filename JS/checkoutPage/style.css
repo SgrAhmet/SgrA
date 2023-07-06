@@ -1,137 +1,136 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family:  'Nunito', sans-serif;;
-    background-color: #eceaea;
-    
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #eceaea;
 }
 
-.container{
-    padding: 10px;
-    display: flex;
-    /* border: 1px solid red; */
-    height: 150vh;
-
+.container {
+  padding: 10px;
+  display: flex;
+  /* border: 1px solid red; */
+  height: 150vh;
 }
-.container .shoppingCartDiv{
-    margin-left: 5%;
-    width: 70%;
-    border-radius: 10px;
-    /* border: 2px solid #b2b2b2; */
-    /* background-color: white; */
-    padding: .5rem;
-
+.container .shoppingCartDiv {
+  margin-left: 5%;
+  width: 70%;
+  border-radius: 10px;
+  /* border: 2px solid #b2b2b2; */
+  /* background-color: white; */
+  padding: 0.5rem;
 }
 
-.container .shoppingCartDiv .product{
-    /* border: 2px solid red; */
-    background-color: white;
-    border: 2px solid #b2b2b2;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    padding: .4rem;
-    border-radius: 10px;
-    margin: 1rem;
+.container .shoppingCartDiv .product {
+  /* border: 2px solid red; */
+  background-color: white;
+  border: 2px solid #b2b2b2;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding: 0.4rem;
+  border-radius: 10px;
+  margin: 1rem;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.container .shoppingCartDiv .product .main{
-    display: flex;
+.container .shoppingCartDiv .product .main {
+  display: flex;
 }
-.container .shoppingCartDiv .product .main .rightDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 1rem;
-    width: 300px;
-    
+.container .shoppingCartDiv .product .main .rightDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  width: 300px;
 }
-.rightDiv p:first-child{
-    font-size: 30px;
+.rightDiv p:first-child {
+  font-size: 30px;
 }
-.container .shoppingCartDiv .product .main .rightDiv .buttons{
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid rgb(255, 183, 0); */
-}
-
-.styleButtonDiv{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    padding: 0.12rem 0.25rem 0.12rem 0.25rem;
-    width: 7vw;
-}
-.fa-solid{
-    font-size: 20px;
-}
-.fa-solid:hover{
-    cursor: pointer;
-    color: #656464;
-}
-.fa-trash:hover{
-    cursor: pointer;
-    color: rgb(245, 106, 106);
-}
-#prodcutNumber{
-    font-size: 20px;
-}
-.styleButtonDiv i.fa-minus{
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-}
-.styleButtonDiv i.fa-plus{
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-}
-.fa-trash{
-    display: flex;
-    align-items: center;
-}
-.container .shoppingCartDiv .product .priceDiv{
-    display: flex;
-    align-items: flex-end;
-    padding: 1rem;
-    font-size: 25px;
-    
-}
-.container .pricesDiv{
-    
-    top: 5%;
-    right: 5%;
-    position: fixed;
-    height: 20vh;
-    width: 20%;
-
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    border-radius: 10px;
-    border: 2px solid #b2b2b2;
-    background-color: white;
-    
+.container .shoppingCartDiv .product .main .rightDiv .buttons {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid rgb(255, 183, 0); */
 }
 
-.container .pricesDiv div{
-    display: flex;
-    justify-content: space-between;
+.styleButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 0.12rem 0.25rem 0.12rem 0.25rem;
+  width: 7vw;
+}
+.fa-solid {
+  font-size: 20px;
+}
+.fa-solid:hover {
+  cursor: pointer;
+  color: #656464;
+}
+.fa-trash:hover {
+  cursor: pointer;
+  color: rgb(245, 106, 106);
+}
+#prodcutNumber {
+  font-size: 20px;
+}
+.styleButtonDiv i.fa-minus {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.styleButtonDiv i.fa-plus {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.fa-trash {
+  display: flex;
+  align-items: center;
+}
+.container .shoppingCartDiv .product .productTotalPriceDiv {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  font-size: 25px;
+}
+.container .pricesDiv {
+  top: 5%;
+  right: 5%;
+  position: fixed;
+  height: 20vh;
+  width: 20%;
 
-    height: 25%;
-    border-top: 1px solid #2d2d2d;
-    
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid #b2b2b2;
+  background-color: white;
 }
 
-.container .pricesDiv div p{
-    font-size: 20px;
-    color: #2d2d2d;
+.container .pricesDiv div {
+  display: flex;
+  justify-content: space-between;
+
+  height: 25%;
+  border-top: 1px solid #2d2d2d;
+}
+
+.container .pricesDiv div p {
+  font-size: 20px;
+  color: #2d2d2d;
 }
 .container div {
-    /* background-color: white; */
+  /* background-color: white; */
+}
+
+/* ---------------------- */
+
+.productPriceDiv {
+  display: flex;
+  font-size: 20px;
 }
