@@ -1,0 +1,118 @@
+/* Colors----
+#27374D
+#526D82
+#9DB2BF
+#DDE6ED
+-----
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}   
+
+body{
+    height: 100vh;
+    background-color:#9DB2BF;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    
+}
+
+header{
+    padding: 1rem;
+    background-color: #526D82;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header .right{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 1rem;
+}   
+
+header .right i{
+    font-size: 1.5rem;
+}
+
+i.fa-linkedin{
+    color: #095097;
+}
+i.fa-instagram{
+    color: rgb(133, 19, 133);
+}
+i.fa-youtube{
+    color: rgb(219, 33, 33);
+}
+
+/* ------------------------------------------------------------------------ */
+
+form{
+    background-color: #526D82;
+    border: 3px solid #27374D;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8%;
+}
+
+form input[type=text]{
+    padding: 0.3rem;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+
+    
+}
+
+form input[type=text]:focus{
+    border: none;
+    outline: 3px solid black;
+}
+
+form input[type=submit]{
+    height: 90%;
+    width: 8%;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+form input[type=submit]:active{
+    border: 1px solid black;
+}
+
+/* ------------------------------------------------------------------------ */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.mainDiv{
+    border: 1px solid red;
+    width: 90%;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.country{
+    /* border: 1px solid blue; */
+    background-color: #526D82;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    
+}
