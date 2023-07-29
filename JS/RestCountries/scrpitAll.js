@@ -22,7 +22,7 @@ const loadAll = async () => {
       (response) => response.json()
     );
 
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 230; i++) {
       const newCountry = document.createElement("div");
       const newCountryName = document.createElement("h3");
       const newCapital = document.createElement("p");
@@ -117,7 +117,7 @@ const loadAll = async () => {
 
 const load =  async()=>{
 //    mainDiv.style.display = "none"
-   mainDiv.innerHTML = ""
+  //  mainDiv.innerHTML = ""
 
   
 
@@ -130,6 +130,7 @@ const load =  async()=>{
     );
 
     const newCountry = document.createElement("div");
+    const deleteBtn = document.createElement("i")
     const newCountryName = document.createElement("h3");
     const newCapital = document.createElement("p");
     const newPopulation = document.createElement("p");
@@ -140,8 +141,14 @@ const load =  async()=>{
     const newFlag = document.createElement("img");
 
     newCountry.classList = "country";
+    deleteBtn.classList = "fa-solid fa-xmark";
+    newCountry.style.gridColumn = "span 12"
+
+
 
      // -------------------------------------------------------------
+
+     
 
      if (response[0].name.common) {
         newCountryName.innerText = `${response[0].name.common}`;
@@ -201,8 +208,11 @@ const load =  async()=>{
 
       // -------------------------------------------------------------
 
-      mainDiv.appendChild(newCountry);
+      deleteBtn.clas
+
+      mainDiv.prepend(newCountry);
       newCountry.appendChild(newCountryName);
+      newCountry.appendChild(deleteBtn);
       newCountry.appendChild(newCapital);
       newCountry.appendChild(newPopulation);
       newCountry.appendChild(newArea);
@@ -212,11 +222,22 @@ const load =  async()=>{
       newFlagLink.appendChild(newFlag);
 
 
+      document.querySelector(".country").addEventListener("click",(e)=>{
+
+        
+        if(e.target.classList.contains("fa-xmark")){
+          e.target.parentElement.remove()
+        }
+      })
+      
+
     } catch (error) {
-        console.log(error)
+        alert("Country can not found")
+        loadAll()
     }
 
 }
+
 
 
 
